@@ -2,7 +2,7 @@
   "name": "js/fetschersite",
   "type": "typo3-cms-extension",
   "description": "Another Fetscher Website",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "homepage": "https://github.com/joekolade/fetschersite",
   "license": ["GPL-2.0+"],
   "authors": [

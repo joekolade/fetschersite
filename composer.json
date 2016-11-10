@@ -4,7 +4,7 @@
   "description": "Another Fetscher Website",
   "version": "1.0.0",
   "homepage": "https://github.com/joekolade/fetschersite",
-  "license": ["GPL-3.0+"],
+  "license": ["GPL-2.0+"],
   "authors": [
       {
           "name": "Joe Schäfer",

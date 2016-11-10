@@ -11,10 +11,6 @@
           "email": "mail@schaefer-webentwicklung.de"
       }
   ],
-  "replace": {
-      "fetschersite": "self.version",
-      "typo3-ter/fetschersite": "self.version"
-  },
   "require": {
     "typo3/cms-core": "^8.0"
   },

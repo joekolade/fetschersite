@@ -1,18 +1,22 @@
 {
-  "name": "typo3-ter/fetschersite",
+  "name": "js/fetschersite",
   "type": "typo3-cms-extension",
   "description": "Another Fetscher Website",
   "version": "1.0.0",
   "homepage": "https://github.com/joekolade/fetschersite",
-  "license": ["GPL-2.0+"],
+  "license": ["GPL-3.0+"],
   "authors": [
       {
           "name": "Joe Schäfer",
           "email": "mail@schaefer-webentwicklung.de"
       }
   ],
+  "replace": {
+      "fetschersite": "self.version",
+      "typo3-ter/fetschersite": "self.version"
+  },
   "require": {
-    "typo3/cms-core": "~8.4.0"
+    "typo3/cms-core": "^8.0"
   },
   "autoload": {
     "psr-4": { "JS\\Fetschersite\\": "Classes/"}

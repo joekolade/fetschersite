@@ -1,0 +1,132 @@
+//
+// Header styles
+//
+header.container {
+  min-height: 119px;
+  background-color: $header-bg;
+  position: relative;
+
+  .logoWrap {
+    margin-left: 23px;
+    margin-top: 41px;
+  }
+
+
+  /* Responsive: Portrait tablets and up */
+  @media screen and (min-width: 768px) {
+    .logoWrap{
+      margin-left: 82px;
+      margin-top: 58px;
+    }
+    .logo {
+      float: left;
+      margin-right: 25px;
+    }
+  }
+}
+
+
+
+.metaNavi {
+  text-align: right;
+  font-size: $font-size-small;
+  border: solid white;
+  border-width: 0 0 1px;
+
+  margin-right: -$grid-gutter-width/2;
+  margin-left: -$grid-gutter-width/2;
+
+  padding: 0 $grid-gutter-width/2;
+
+  background: lighten($orange, 5%);
+
+  color: $grey-dark;
+  a {
+    color: $grey-dark;
+  }
+
+  nav.lang {
+    text-align: right;
+    float: left;
+    margin-right: $grid-gutter-width/2;
+    padding-top: 9px;
+
+    li {
+      min-width: 0;
+      opacity: $flag-opacity;
+      transition: $default-transition;
+
+      &:hover,
+      &.active {
+        opacity: 1;
+      }
+
+      img {
+        border: $flag-border;
+      }
+    }
+  }
+
+  nav.meta {
+    a {
+      margin-right: $grid-gutter-width/2;
+    }
+  }
+
+  /* Responsive: MINI | < 320 */
+  @media screen and (max-width: 320px) {
+
+    nav.meta,
+    nav.lang {
+      display: block;
+      float: none;
+      text-align: left;
+      margin-left: 0;
+
+      a.btn {
+        padding-left: 0;
+      }
+    }
+  }
+
+  /* Responsive: Portrait tablets and up */
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    top: -98px;
+    right: $grid-gutter-width/2;
+    background: none;
+    border: none;
+    width: 178px;
+    text-align: left;
+
+    color: $meta-menu-color;
+    a {
+      color: $meta-menu-color;
+    }
+
+    nav.lang {
+      text-align: left;
+      float: none;
+    }
+    nav.meta {
+      a.btn {
+        display: block;
+        padding: 0;
+        text-align: left;
+        font-size: $font-size-small;
+      }
+      // homelink
+      a[href="/"]{
+        position: absolute;
+        left: -$home-icon-width;
+        width: $home-icon-width;
+        height: $home-icon-width;
+        text-align: center;
+        border-radius: 4px;
+        border: $home-icon-border;
+        font-size: $font-size-large;
+        padding-top: 7px;
+      }
+    }
+  }
+}

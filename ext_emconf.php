@@ -32,6 +32,9 @@ $EM_CONF[$_EXTKEY] = array(
 			'dd_googlesitemap' => '',
 			'jh_magnificpopup' => '',
 			't3monitoring_client' => '',
+			'cs_seo' => '',
+			'sourceopt' => '',
+			'scriptmerger' => '',
 			// Sysextensions
 			'opendocs' => '',
 			'recycler' => '',

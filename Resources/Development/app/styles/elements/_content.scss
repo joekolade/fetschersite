@@ -1,0 +1,44 @@
+//
+// Content
+//
+h1,h2,h3 {
+  line-height: 1.2;
+  font-weight: 400;
+
+  small {
+    color: inherit;
+    font-size: 1em;
+  }
+
+  &.light {
+    font-weight: 400;
+  }
+
+  div[class*=col-] > &:first-child {
+    margin-top: 0;
+  }
+
+}
+
+a {
+  &.btn {
+    @include transit(background-color);
+  }
+}
+
+b, strong {
+  font-weight: 600;
+}
+
+.content {
+  .row {
+    margin-bottom: 35px;
+  }
+
+  .indent {
+    h1,h2,h3,h4,p,ul,ol {
+      margin-left: $grid-gutter-width/2;
+      margin-right: $grid-gutter-width/2;
+    }
+  }
+}

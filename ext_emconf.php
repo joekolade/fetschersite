@@ -25,6 +25,13 @@ $EM_CONF[$_EXTKEY] = array(
 	'constraints' => array(
 		'depends' => array(
 			'typo3' => '7.6.0-8.99.99',
+			'gridelements' => '',
+			'mask' => '',
+			'powermail' => '',
+			'realurl' => '',
+			'dd_googlesitemap' => '',
+			'jh_magnificpopup' => '',
+			//'youtubevideo' => '',
 		),
 		'conflicts' => array(
 		),

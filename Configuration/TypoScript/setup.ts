@@ -5,7 +5,7 @@
 page = PAGE
 page.10 = FLUIDTEMPLATE
 page.10 {
-  templateName = Seybold+Burka
+  templateName = Page
   layoutRootPaths {
     10 = EXT:fetschersite/Resources/Private/Layouts
   }
@@ -16,6 +16,8 @@ page.10 {
     10 = EXT:fetschersite/Resources/Private/Partials
   }
 }
+
+config.baseURL = http://{$site.domain}/
 
 /**
  * Sytles & Scripts

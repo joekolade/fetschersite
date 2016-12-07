@@ -8,7 +8,7 @@ $icon-font-path: '../fonts/';
 // Fetch font-settings
 @import "fonts";
 
-$fa-font-path: "../../bower_components/font-awesome/fonts";
+$fa-font-path: "../fonts";
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";

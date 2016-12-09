@@ -1,84 +1,15 @@
 <div class="wrapper">
   <header class="container">
-    <div class="logoWrap">
-      <div class="logo">
-        <img src="images/logo2.gif">
-      </div>
-      <div class="claim">
-        <i>rotating systems for your storage</i>
-      </div>
-    </div>
+    
+    <f:render partial="Header" arguments="{_all}"></f:render>
+
   </header>
-  <div class="container nav">
-    <nav class="navbar navbar-default" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
 
-        <div class="navbar-right hidden-xs">
-          <div class="scrollWrapper">
-            <div class="scroller"></div>
-          </div>
-        </div>
+  <f:render partial="Navigation" arguments="{_all}"></f:render>
 
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-
-          <div class="metaNavi">
-            <!-- Language de/en/fr -->
-            <nav class="lang">
-              <ul class="list-inline">
-                <li class="active"><a href="#"><span class="sr-only">de</span><img src="images/lang_de.png" class="img-responsive" alt="de"></a></li>
-                <li><a href="#"><span class="sr-only">fr</span><img src="images/lang_fr.png" class="img-responsive" alt="fr"></a></li>
-                <li><a href="#"><span class="sr-only">en</span><img src="images/lang_en.png" class="img-responsive" alt="en"></a></li>
-              </ul>
-            </nav>
-            <!-- Metamenu -->
-            <nav class="meta">
-              <a class="btn btn-default hidden-xs" href="/">
-                <i class="fa fa-home"></i>
-                <span class="sr-only">Home</span></a>
-              <a class="btn" href="#">Kontakt &amp; Anfrage</a>
-              <a class="btn" href="#">Impressum &amp; Datenschutz</a>
-            </nav>
-          </div>
-          <ul class="nav navbar-nav">
-            <li><a href="#">Unternehmen</a></li>
-            <li>
-              <a href="#">System</a>
-              <ul class="subnav">
-                <li>
-                  <a href="#">Bauformen</a>
-                  <ul class="subnav">
-                    <li><a href="#">MONO</a></li>
-                    <li><a href="#">MULTI</a></li>
-                    <li><a href="#">PLUS</a></li>
-                    <li><a href="#">VARIO</a></li>
-                    <li><a href="#">LIFT</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Tragsätze</a></li>
-                <li><a href="#">Zubehör</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Umlaufregale</a></li>
-            <li><a href="#">Referenzen</a></li>
-            <li><a href="#">Kontakt</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
   <div class="container stage">
-    <div class="stageInner">
-      <img src="images/stage_1.png" class="img-responsive">
-    </div>
-    <!-- opt: formular (desktop only) -->
+    <f:render section="stage" />
+    <!-- Formular? -->
   </div>
 
   <div class="container content">
@@ -88,49 +19,15 @@
   </div>
 
   <footer class="container">
-    <div class="row">
-      <div class="col-sm-3">
-        SEYBOLD-BURKA GmbH &amp; Co. KG  Maschinen- und Metallbau<br>
-        Im Espach 8 , 88444 Ummendorf <br>
-        Telefon 07351 3409-0 <br>
-        Fax 07351 3409-10<br>
-        <a href="mailto:info@seybold-burka.com">info@seybold-burka.com</a>
-      </div>
-      <div class="col-sm-3">
-        Link Rubrik<br>
-        Link Rubrik<br>
-        Link Rubrik<br>
-        Link Rubrik<br>
-        Link Rubrik
-      </div>
-      <div class="col-sm-3">
-        Link Rubrik<br>
-        Link Rubrik<br>
-        Link Rubrik<br>
-        Link Rubrik<br>
-        Link Rubrik
-      </div>
-      <div class="col-sm-3">
-        Link Rubrik<br>
-        Link Rubrik<br>
-        Link Rubrik<br>
-        Link Rubrik<br>
-        Link Rubrik
-      </div>
-    </div>
+
+    <f:render partial="Footer" arguments="{_all}"></f:render>
+    
   </footer>
 
   <footer class="container superfooter">
-    <div class="row">
-      <div class="col-sm-6">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi reprehenderit enim sit minima in eius, consequatur aliquid autem incidunt dolorem.
-      </div>
-      <div class="col-sm-6 text-right">
-        <a href="http://www.werbeagentur-fetscher.de" target="_blank">
-          <img src="images/logo_fetscher.png" width="188" height="22" class="logo_fetscher" alt="" border="0">
-        </a>
-      </div>
-    </div>
+    
+    <f:render partial="SuperFooter" arguments="{_all}"></f:render>
+
   </footer>
 
 </div>

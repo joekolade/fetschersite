@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col-sm-6">
+    <f:if condition="{data.tx_mask_agencyfootertext}">
+      {data.tx_mask_agencyfootertext -> f:format.html()}
+    </f:if>
+  </div>
+  <div class="col-sm-6 text-right">
+    <f:link.page pageUid="{data.tx_mask_agencyhomepage}" target="_blank">
+      <f:image image="{data.tx_mask_agencylogo.0}" alt="{data.tx_mask_agencyname}" class="logo_fetscher"></f:image>
+    </f:link.page>
+  </div>
+</div>

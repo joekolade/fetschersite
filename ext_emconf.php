@@ -21,10 +21,12 @@ $EM_CONF[$_EXTKEY] = array(
 	'uploadfolder' => '0',
 	'createDirs' => '',
 	'clearCacheOnLoad' => 0,
-	'version' => '1.0.1',
+	'version' => '1.1.0',
 	'constraints' => array(
 		'depends' => array(
 			'typo3' => '7.6.0-8.99.99',
+			// 'bootstrap_core' => '',
+			'bootstrap_grids' => '',
 			'gridelements' => '',
 			'mask' => '',
 			'powermail' => '',
@@ -42,6 +44,7 @@ $EM_CONF[$_EXTKEY] = array(
 		'conflicts' => array(
 		),
 		'suggests' => array(
+			'rx_unrollsavebuttons' => '',
 		),
 	),
 );

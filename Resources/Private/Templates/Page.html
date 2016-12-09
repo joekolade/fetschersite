@@ -1,7 +1,14 @@
 <f:layout name="Default" />
 
-<f:section name="main">
+<f:section name="stage">
+  
+ {contentStage -> f:format.raw()} 
 
+</f:section>
+
+<f:section name="main">
+  {contentMain -> f:format.raw()}
+  <!--
   <div class="row">
     <div class="col-sm-6">
       <h1>SEYBOLD + Burka GmbH &amp; Co. KG<br><small>Maschinen- und Metallbau</small></h1>
@@ -85,5 +92,5 @@
       </p>
     </div>
   </div>
-
+  -->
 </f:section>

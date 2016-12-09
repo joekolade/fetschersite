@@ -1,0 +1,176 @@
+{
+    "tt_content": {
+        "elements": {
+            "tryelement": {
+                "label": "tryelement",
+                "key": "tryelement",
+                "shortLabel": "",
+                "description": "",
+                "icon": "",
+                "color": "#000000",
+                "labels": [
+                    "tryelement_1"
+                ],
+                "columns": [
+                    "tx_mask_tryelement_1"
+                ]
+            }
+        },
+        "sql": {
+            "tx_mask_tryelement_1": {
+                "tt_content": {
+                    "tx_mask_tryelement_1": "tinytext"
+                }
+            }
+        },
+        "tca": {
+            "tx_mask_tryelement_1": {
+                "config": {
+                    "type": "input",
+                    "eval": "",
+                    "default": "",
+                    "placeholder": "",
+                    "size": "",
+                    "max": "",
+                    "is_in": ""
+                },
+                "exclude": "1",
+                "key": "tryelement_1"
+            }
+        }
+    },
+    "pages": {
+        "elements": {
+            "2": {
+                "label": "Start-Seite",
+                "key": "2",
+                "shortLabel": "dummy shortitle",
+                "description": "dummy description",
+                "columns": [
+                    "tx_mask_agencyname",
+                    "tx_mask_agencyhomepage",
+                    "tx_mask_agencylogo",
+                    "tx_mask_agencyfootertext"
+                ],
+                "labels": [
+                    "Agentur Name",
+                    "Agentur Homepage",
+                    "Agentur-Logo",
+                    "Agentur-Text im Footer"
+                ],
+                "options": {
+                    "3": "rte"
+                }
+            }
+        },
+        "sql": {
+            "tx_mask_agencyname": {
+                "pages": {
+                    "tx_mask_agencyname": "tinytext"
+                }
+            },
+            "tx_mask_agencyhomepage": {
+                "pages": {
+                    "tx_mask_agencyhomepage": "tinytext"
+                }
+            },
+            "tx_mask_agencylogo": {
+                "pages": {
+                    "tx_mask_agencylogo": "int(11) unsigned DEFAULT '0' NOT NULL"
+                }
+            },
+            "tx_mask_agencyfootertext": {
+                "pages": {
+                    "tx_mask_agencyfootertext": "text"
+                }
+            }
+        },
+        "tca": {
+            "tx_mask_agencyname": {
+                "config": {
+                    "type": "input",
+                    "eval": "required",
+                    "default": "Werbeagentur Fetscher",
+                    "placeholder": "",
+                    "size": "",
+                    "max": "",
+                    "is_in": ""
+                },
+                "exclude": "1",
+                "key": "agencyname"
+            },
+            "tx_mask_agencyhomepage": {
+                "config": {
+                    "type": "input",
+                    "wizards": {
+                        "_PADDING": "2",
+                        "link": {
+                            "type": "popup",
+                            "title": "Link",
+                            "icon": "EXT:backend\/Resources\/Public\/Images\/FormFieldWizard\/wizard_link.gif",
+                            "module": {
+                                "name": "wizard_link",
+                                "urlParameters": {
+                                    "mode": "wizard"
+                                }
+                            },
+                            "JSopenParams": "height=300,width=500,status=0,menubar=0,scrollbars=1",
+                            "params": {
+                                "blindLinkOptions": "file,mail,page,folder",
+                                "allowedExtensions": ""
+                            }
+                        }
+                    },
+                    "eval": "",
+                    "default": "",
+                    "placeholder": "",
+                    "size": ""
+                },
+                "exclude": "1",
+                "key": "agencyhomepage"
+            },
+            "tx_mask_agencylogo": {
+                "exclude": "1",
+                "options": "file",
+                "config": {
+                    "behaviour": {
+                        "localizationMode": "select"
+                    },
+                    "minitems": "",
+                    "maxitems": "1",
+                    "filter": [
+                        {
+                            "parameters": {
+                                "allowedFileExtensions": "png,jpg,svg"
+                            }
+                        }
+                    ]
+                },
+                "key": "agencylogo"
+            },
+            "tx_mask_agencyfootertext": {
+                "config": {
+                    "type": "text",
+                    "eval": "",
+                    "cols": "",
+                    "rows": "",
+                    "default": "",
+                    "placeholder": "",
+                    "max": ""
+                },
+                "exclude": "1",
+                "defaultExtras": "richtext[]:rte_transform[mode=ts_css]",
+                "key": "agencyfootertext"
+            }
+        }
+    },
+    "sys_file_reference": {
+        "sql": {
+            "tx_mask_agencylogo": {
+                "sys_file_reference": {
+                    "tx_mask_agencylogo": "int(11) unsigned DEFAULT '0' NOT NULL"
+                }
+            }
+        }
+    }
+}

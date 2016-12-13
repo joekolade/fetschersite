@@ -25,7 +25,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'constraints' => array(
 		'depends' => array(
 			'typo3' => '7.6.0-8.99.99',
-			// 'bootstrap_core' => '',
+			'fsc_layout_wrap' => '',
 			'bootstrap_grids' => '',
 			'gridelements' => '',
 			'mask' => '',
@@ -45,6 +45,8 @@ $EM_CONF[$_EXTKEY] = array(
 		),
 		'suggests' => array(
 			'rx_unrollsavebuttons' => '',
+			'go_maps_ext' => '',
+			'fsc_layout_wrap' => '',
 		),
 	),
 );

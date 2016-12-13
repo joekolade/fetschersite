@@ -1,41 +1,19 @@
 {
     "tt_content": {
         "elements": {
-            "tryelement": {
-                "label": "tryelement",
-                "key": "tryelement",
+            "stageimage": {
+                "label": "Stage Bild",
+                "key": "stageimage",
                 "shortLabel": "",
                 "description": "",
-                "icon": "",
-                "color": "#000000",
-                "labels": [
-                    "tryelement_1"
-                ],
+                "icon": "fa-photo",
+                "color": "#ff7d00",
                 "columns": [
-                    "tx_mask_tryelement_1"
+                    "image"
+                ],
+                "labels": [
+                    ""
                 ]
-            }
-        },
-        "sql": {
-            "tx_mask_tryelement_1": {
-                "tt_content": {
-                    "tx_mask_tryelement_1": "tinytext"
-                }
-            }
-        },
-        "tca": {
-            "tx_mask_tryelement_1": {
-                "config": {
-                    "type": "input",
-                    "eval": "",
-                    "default": "",
-                    "placeholder": "",
-                    "size": "",
-                    "max": "",
-                    "is_in": ""
-                },
-                "exclude": "1",
-                "key": "tryelement_1"
             }
         }
     },

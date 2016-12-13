@@ -2,6 +2,7 @@
  * Template
  *
  */
+
 page = PAGE
 page.10 = FLUIDTEMPLATE
 page.10 {
@@ -18,6 +19,8 @@ page.10 {
 }
 
 config.baseURL = http://{$fetschersite.site.domain}/
+config.tx_realurl_enable = 1
+
 
 /**
  * Sytles & Scripts
@@ -27,8 +30,10 @@ page.includeCSS {
   main = EXT:fetschersite/Resources/Public/Css/main.css
 }
 page.includeJS.modernizr = EXT:fetschersite/Resources/Public/JavaScripts/vendor/modernizr.js
-page.includeJSFooterlibs {
+page.includeJS {
   vendor = EXT:fetschersite/Resources/Public/JavaScripts/vendor.js
+}
+page.includeJSFooter {
   plugins = EXT:fetschersite/Resources/Public/JavaScripts/plugins.js
   main = EXT:fetschersite/Resources/Public/JavaScripts/main.js
 }
@@ -39,6 +44,9 @@ page.includeJSFooterlibs {
  * 
  */
 page.10.variables {
+  layout = TEXT
+  layout.data = levelfield:-2,backend_layout_next_level,slide
+  layout.override.field = backend_layout
 
   logoFile = TEXT
   logoFile.value = {$fetschersite.site.logoFile}
@@ -99,10 +107,13 @@ page.10.variables {
     }
   }
 
-  contentStage = < styles.content.get
+  contentStage = COA
   contentStage {
-    select.where = colPos = 11
-    select.languageField = sys_language_uid 
+    10 < styles.content.get
+    10 {
+      select.where = colPos = 11
+      select.languageField = sys_language_uid 
+    }
   }
   contentMain = < styles.content.get
   contentMain {
@@ -132,11 +143,79 @@ page.10.variables {
 
 }
 
+lib.superFooterText = COA
+lib.superFooterText {
+  10 = CONTENT
+  10 {
+    table = pages
+    select {
+      pidInList = 0
+      uidInList = 1
+    }
+
+    renderObj = COA
+    renderObj {
+      10 = TEXT
+      10 {
+        field = tx_mask_agencyfootertext
+        parseFunc = < lib.parseFunc_RTE
+      }
+    }
+  }
+}
+
+lib.superFooterLogo < lib.superFooterText
+lib.superFooterLogo {
+  10.renderObj {
+
+    10 >
+    10 = FILES
+    10 {
+      references {
+        table = pages
+        fieldName = tx_mask_agencylogo
+        uid.data = uid
+      }
+      renderObj = IMAGE
+      renderObj {
+        file.import.data = file:current:originalUid // file:current:uid
+        altText.field = tx_mask_agencyname
+        titleText.field = tx_mask_agencyname
+
+        stdWrap.typolink.parameter.field = tx_mask_agencyhomepage
+        stdWrap.typolink.extTarget = _blank
+      }
+    }
+  }
+}
+
+lib.quickform = COA
+lib.quickform {
+  wrap = <div class="quick"><div class="quickInner">|</div></div>
+
+  10 = TEXT
+  10 {
+    wrap = <a class="btn btn-primary" role="button" data-toggle="collapse" href="#quickFormCollapse" aria-expanded="true" aria-controls="collapseExample">| <i class="fa fa-chevron-down pull-right"></i></a>
+    value = Schnell-Anfrage öffnen
+  }
+
+  20 = CONTENT
+  20 {
+    table = tt_content
+    select {
+      pidInList = 22 
+      #{$site.pageIds.quickform}
+      uidInList = 33
+      #.data = {$site.quickformUid}
+
+    }
+    wrap = <div class="ollapse collapse" id="quickFormCollapse" aria-expanded="true">|<div class="footer"><a href="tel:+49735194090"><i class="fa fa-phone"></i> +49 (0)7351 9409-0</a></div></div></div></div>
+  }
+
+}
 
 /**
  * Includes
  */
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:fetschersite/Configuration/TypoScript/Setup/" extension="ts">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:fetschersite/Configuration/TypoScript/Extensions/" extension="ts">
-
-config.tx_realurl_enable = 1

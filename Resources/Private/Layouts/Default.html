@@ -11,6 +11,9 @@
     <f:render section="stage" />
     <!-- Formular? -->
   </div>
+  <f:if condition="{layout} == 1">
+    <f:cObject typoscriptObjectPath="lib.quickform" />
+  </f:if>
 
   <div class="container content">
 

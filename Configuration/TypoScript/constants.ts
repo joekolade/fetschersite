@@ -23,13 +23,6 @@ fetschersite {
   }
 }
 
-[globalString = HTTP_HOST= http://www.typo3.com]
-fetschersite.site.domain = www.typo3.com
-[global]
-[globalString = HTTP_HOST= http://www.typo3.org]
-fetschersite.site.domain = www.typo3.org
-[global]
-
 /**
  * scriptmerger_constants.ts
  * 

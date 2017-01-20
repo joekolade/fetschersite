@@ -9,70 +9,22 @@
     }
 }
 
-// Gallerie bis 992px auf volle Breite
-@media (max-width: 992px) {
-    .ce-gallery {
-        width: 100%;
-    }
-}
-
-// Anpassungen von kleinen bis groeßeren Geraeten
-@media (min-width:640px) and (max-width: 1200px) {
-    .ce-gallery {
+.ce-gallery {
+    > .ce-outer > .ce-inner > .ce-row {
+        display: flex;
         .ce-column {
-            margin: 0;
-            // Abstand zwischen Bildern
-            padding: 0 5px;
-            box-sizing: border-box;
-
-            // Kein Abstand beim ersten und letzten Bild
-            &:first-child {
-                padding-left: 0;
-            }
+            margin-right: 10px;
             &:last-child {
                 margin-right: 0;
             }
         }
+    }
 
-        // Fluid Image Tags
-        img,
-        picture {
-            width: 100%;
-            height: auto;
-        }
-
-        // Spaltenbreiten je nach eingestellten Columns
-        &[data-ce-columns="2"] .ce-column {
-            width: 50%;
-        }
-        &[data-ce-columns="3"] .ce-column {
-            width: 33%;
-        }
-        &[data-ce-columns="4"] .ce-column {
-            width: 25%;
-        }
-        &[data-ce-columns="5"] .ce-column {
-             width: 20%;
+    &[data-ce-columns="3"] {
+        > .ce-outer > .ce-inner > .ce-row {
+            .ce-column {
+                width: 33%;
+            }
         }
     }
 }
-
-// Anpassungen fuer kleine Geraete
-@media (max-width: 640px) {
-    .ce-gallery {
-
-        // Ein Bild pro Zeile
-        .ce-column {
-            margin: 0 0 10px;
-            width: 100%;
-            box-sizing: border-box;
-        }
-        // Fluid Image Tags
-        img,
-        picture {
-            width: 100%;
-            height: auto;
-        }
-    }
-}
-

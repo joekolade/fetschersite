@@ -2,6 +2,13 @@
 //
 // blog.teamgeist-medien.de
 
+.img-responsive {
+    img, picture {
+        display: block;
+        max-width: 100%;
+    }
+}
+
 // Gallerie bis 992px auf volle Breite
 @media (max-width: 992px) {
     .ce-gallery {

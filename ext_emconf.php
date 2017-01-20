@@ -40,6 +40,7 @@ $EM_CONF[$_EXTKEY] = array(
 			// Sysextensions
 			'opendocs' => '',
 			'recycler' => '',
+			'vhs' => '',
 		),
 		'conflicts' => array(
 		),

@@ -20,10 +20,42 @@
         }
     }
 
+    &[data-ce-columns="1"] {
+        > .ce-outer > .ce-inner > .ce-row {
+            .ce-column {
+                width: 100%;
+            }
+        }
+    }
+
+    &[data-ce-columns="2"] {
+        > .ce-outer > .ce-inner > .ce-row {
+            .ce-column {
+                width: 50%;
+            }
+        }
+    }
+
     &[data-ce-columns="3"] {
         > .ce-outer > .ce-inner > .ce-row {
             .ce-column {
                 width: 33%;
+            }
+        }
+    }
+
+    &[data-ce-columns="4"] {
+        > .ce-outer > .ce-inner > .ce-row {
+            .ce-column {
+                width: 25%;
+            }
+        }
+    }
+
+    &[data-ce-columns="5"] {
+        > .ce-outer > .ce-inner > .ce-row {
+            .ce-column {
+                width: 20%;
             }
         }
     }

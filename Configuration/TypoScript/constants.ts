@@ -25,7 +25,7 @@ fetschersite {
 
 /**
  * scriptmerger_constants.ts
- * 
+ *
  */
 
 plugin.tx_scriptmerger.css.compress.enable = 0
@@ -34,7 +34,7 @@ plugin.tx_scriptmerger.css.enable = 0
 
 /**
  * Fluid Styled Content
- * 
+ *
  */
 styles.templates.layoutRootPath = EXT:fetschersite/Resources/Extensions/fsc/Layouts
 styles.templates.templateRootPath = EXT:fetschersite/Resources/Extensions/fsc/Templates

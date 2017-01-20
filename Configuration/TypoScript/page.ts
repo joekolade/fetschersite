@@ -21,9 +21,9 @@ RTE.default {
 ## Klassen hinzufuegen
 RTE.default.proc.allowedClasses := addToList(button-link)
 RTE.default.buttons {
-     # blockstyle.tags.div.allowedClasses := addToList(error, small)
-     # textstyle.tags.span.allowedClasses := addToList(small)
-     link.properties.class.allowedClasses := addToList(button-link)
+  # blockstyle.tags.div.allowedClasses := addToList(error, small)
+  # textstyle.tags.span.allowedClasses := addToList(small)
+  link.properties.class.allowedClasses := addToList(button-link)
 }
 ## nicht benoetigte Klassen entfernen
 RTE.default.proc.allowedClasses := removeFromList(csc-frame-frame1, csc-frame-frame2, important, name-of-person, detail)
@@ -34,10 +34,10 @@ RTE.classes := removeFromList(csc-frame-frame1, csc-frame-frame2, important, nam
 ## Klassen fuer die RTE Auswahlfelder definieren
 
 RTE.classesAnchor.button-link {
-      name = Linkbutton
-      #value = background: url(fileadmin/../arrow1.gif) no-repeat 100% 0%;
-      class= btn btn-warning
- }
+  name = Linkbutton
+  #value = background: url(fileadmin/../arrow1.gif) no-repeat 100% 0%;
+  class= btn btn-warning
+}
 
 ##Button Textfarbe einblenden
 RTE.default.showButtons := addToList (textcolor)
@@ -45,14 +45,14 @@ RTE.default.showButtons := addToList (textcolor)
 ##Farbpicker ausblenden
 #RTE.default.disableColorPicker = 1
 
-RTE.default.colors = color1, color2, color3
+RTE.default.colors = color1, color2
 RTE.colors {
-   color1 {
-      name = Inhalte fehlen noch
-      value = #FF69B4
-   }
-   color2 {
-      name = Inhalte überprüfen
-      value = #FF7D00
-   }
+  color1 {
+    name = Inhalte fehlen noch
+    value = #FF69B4
+  }
+  color2 {
+    name = Inhalte überprüfen
+    value = #FF7D00
+  }
 }

@@ -24,7 +24,7 @@ config.tx_realurl_enable = 1
 
 /**
  * Sytles & Scripts
- * 
+ *
  */
 page.includeCSS {
   main = EXT:fetschersite/Resources/Public/Css/main.css
@@ -41,25 +41,26 @@ page.includeJSFooter {
 /**
  * Content Elements
  * & Variables
- * 
+ *
  */
 page.10.variables {
+
   layout = TEXT
   layout.data = levelfield:-2,backend_layout_next_level,slide
   layout.override.field = backend_layout
 
   logoFile = TEXT
   logoFile.value = {$fetschersite.site.logoFile}
-  
+
   sitename = TEXT
   sitename.value = {$fetschersite.site.name}
-  
+
   claim = TEXT
   claim.value = {$fetschersite.site.claim}
 
   pageIds_root = TEXT
   pageIds_root.value = {$fetschersite.pageIds.root}
-  
+
   fetscherLogoFile = TEXT
   fetscherLogoFile.value = {$fetschersite.site.fetscherLogoFile}
 
@@ -100,6 +101,7 @@ page.10.variables {
     20 {
       special = directory
       special.value = {$fetschersite.pageIds.metaNaviRoot}
+      special.value = 7
 
       1 = TMENU
       1.NO = 1
@@ -112,13 +114,13 @@ page.10.variables {
     10 < styles.content.get
     10 {
       select.where = colPos = 11
-      select.languageField = sys_language_uid 
+      select.languageField = sys_language_uid
     }
   }
   contentMain = < styles.content.get
   contentMain {
     select.where = colPos = 12
-    select.languageField = sys_language_uid 
+    select.languageField = sys_language_uid
   }
 
   contentFooter = COA
@@ -126,17 +128,17 @@ page.10.variables {
     10 < styles.content.get
     10 {
       select.where = colPos = 21
-      select.languageField = sys_language_uid 
+      select.languageField = sys_language_uid
       wrap = <div class="col-sm-3">|</div>
       slide = -1
     }
-    
+
     20 < .10
     20.select.where = colPos = 22
-    
+
     30 < .10
     30.select.where = colPos = 23
-    
+
     40 < .10
     40.select.where = colPos = 24
   }
@@ -203,7 +205,7 @@ lib.quickform {
   20 {
     table = tt_content
     select {
-      pidInList = 22 
+      pidInList = 22
       #{$site.pageIds.quickform}
       uidInList = 33
       #.data = {$site.quickformUid}
@@ -218,4 +220,4 @@ lib.quickform {
  * Includes
  */
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:fetschersite/Configuration/TypoScript/Setup/" extension="ts">
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:fetschersite/Configuration/TypoScript/Extensions/" extension="ts">
+#<INCLUDE_TYPOSCRIPT: source="DIR:EXT:fetschersite/Configuration/TypoScript/Extensions/" extension="ts">

@@ -14,10 +14,10 @@
 						<div class="ce-column">
 							<f:if condition="{column.media.description}">
 								<f:then>
-									<figure>
+									<figure class="img-responsive">
 								</f:then>
 								<f:else>
-									<div class="ce-media">
+									<div class="ce-media img-responsive">
 								</f:else>
 							</f:if>
 
@@ -102,6 +102,7 @@
 					height="{column.dimensions.height}"
 					alt="{column.media.alternative}"
 					title="{column.media.title}"
+					class="img-repsonsive"
 			/>
 		</f:else>
 	</f:if>

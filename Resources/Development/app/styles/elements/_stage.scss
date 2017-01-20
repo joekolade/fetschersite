@@ -7,6 +7,7 @@
   overflow: hidden;
   margin-bottom: 40px;
   position: relative;
+  padding-left: 0;
 
   .stageInner {
     margin-left: -$grid-gutter-width/2;
@@ -21,7 +22,7 @@
     border-bottom: 10px solid $grey;
     margin-bottom: $stage-sm-bottom;
     max-height: 999px;
-    
+
     .tx-go-maps-ext,
     .embed-responsive {
       min-height: 300px;

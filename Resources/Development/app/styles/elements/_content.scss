@@ -44,7 +44,7 @@ a {
     line-height: $line-height-base;
     border-radius: 0;
     user-select: none;
-    
+
     margin-bottom: 1.5em;
 
     &:hover {
@@ -72,6 +72,14 @@ b, strong {
 .content {
   .row {
     margin-bottom: 35px;
+
+    // First header
+    > div > .layout0:first-child {
+      > h1, > h2 {
+        margin-top: 0;
+      }
+    }
+
   }
 
   .indent, .layout1 {

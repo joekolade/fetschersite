@@ -92,3 +92,12 @@ b, strong {
     }
   }
 }
+
+
+// rounded images
+//
+.img-rounded {
+  img, picture {
+    border-radius: 50%;
+  }
+}

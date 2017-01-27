@@ -6,7 +6,7 @@ tx_gridelements {
 TCEFORM.pages.backend_layout.PAGE_TSCONFIG_ID=20
 TCEFORM.pages.backend_layout_next_level.PAGE_TSCONFIG_ID=20
 
-TCEFORM.tt_content.layout.altLabels.1 = Eingerückt
+TCEFORM.tt_content.layout.altLabels.1 = runde Bilder
 TCEFORM.tt_content.layout.removeItems = 2,3
 
 # add pastetoggle button to RTE toolbar

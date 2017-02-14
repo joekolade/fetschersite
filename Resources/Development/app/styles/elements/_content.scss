@@ -14,10 +14,8 @@ h1,h2,h3 {
     font-weight: 400;
   }
 
-  div[class*=col-] > &:first-child {
-    > h1, > h2 {
-      margin-top: 0;
-    }
+  div[class*=col-] > :first-child > &{
+    margin-top: 0;
   }
 
 }

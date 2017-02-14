@@ -33,6 +33,12 @@ plugin.tx_scriptmerger.javascript.compress.enable = 0
 plugin.tx_scriptmerger.css.enable = 0
 
 /**
+ * Activate lightbox
+ *
+ */
+styles.content.textmedia.linkWrap.lightboxEnabled = 1
+
+/**
  * Fluid Styled Content
  *
  */

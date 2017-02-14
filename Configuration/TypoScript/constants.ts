@@ -3,7 +3,7 @@ fetschersite {
   site {
     domain = fetscher.local
 
-    logoFile = EXT:fetschersite/Resources/Public/Images/logo2.gif
+    logoFile = EXT:fetschersite/Resources/Public/Images/Seybold-Burka.svg
     name = Seybold+Burka
     claim = rotating systems for your storage
 

@@ -9,6 +9,11 @@
     }
 }
 
+figcaption {
+    margin-top: 1em;
+    font-size: $font-size-small;
+}
+
 .ce-gallery {
     > .ce-outer > .ce-inner > .ce-row {
         display: flex;

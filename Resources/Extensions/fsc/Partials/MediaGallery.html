@@ -89,7 +89,7 @@
 <f:section name="media">
 	<f:if condition="{isImage}">
 		<f:then>
-			<v:media.picture src="{column.media.publicUrl}" alt="{column.media.alternative}">
+			<v:media.picture src="{column.media.publicUrl}" alt="{column.media.alternative}" title="{column.media.title}">
 				<v:media.source media="(min-width: 992px)" width="{column.dimensions.width}c" height="{column.dimensions.height}c" />
 				<v:media.source media="(min-width: 768px)" width="200c" height="200c" />
 				<v:media.source width="80c" height="80c" />

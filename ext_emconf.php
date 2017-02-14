@@ -48,6 +48,7 @@ $EM_CONF[$_EXTKEY] = array(
 			'rx_unrollsavebuttons' => '',
 			'go_maps_ext' => '',
 			'fsc_layout_wrap' => '',
+			'frontend_editing' => '',
 			'lib_js_lazysizes' => '' // https://github.com/joekolade/lib_js_lazysizes
 		),
 	),

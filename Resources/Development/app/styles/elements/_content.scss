@@ -91,6 +91,13 @@ b, strong {
       margin-right: $grid-gutter-width/2;
     }
   }
+
+  // Border für images
+  .border-1 {
+    picture {
+      border: thin solid $grey;
+    }
+  }
 }
 
 

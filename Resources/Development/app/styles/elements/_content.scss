@@ -21,6 +21,9 @@ h1,h2,h3 {
 }
 
 a {
+
+  text-decoration: underline;
+
   &.button-link,
   &.btn {
     @include transit(background-color);

@@ -165,6 +165,25 @@ gulp.task('wiredep', () => {
     .pipe(gulp.dest('app'));
 });
 
+// gulp: typo3
+gulp.task('t3copyStyles', () => {
+  return gulp.src([
+    'dist/styles/**/*'
+    ], {
+    dot: true
+  }).pipe(gulp.dest('../Public/Css'));
+});
+gulp.task('t3copyJs', () => {
+  return gulp.src([
+    'dist/scripts/**/*'
+    ], {
+    dot: true
+  }).pipe(gulp.dest('../Public/JavaScripts'));
+ });
+gulp.task('typo3', ['t3copyStyles'], () => {
+  gulp.start('t3copyJs');
+});
+
 gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });

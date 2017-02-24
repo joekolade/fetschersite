@@ -3,11 +3,21 @@ tx_gridelements {
 }
 
 ##id storagepage of gridlayout
-TCEFORM.pages.backend_layout.PAGE_TSCONFIG_ID=20
-TCEFORM.pages.backend_layout_next_level.PAGE_TSCONFIG_ID=20
+TCEFORM.pages.backend_layout.PAGE_TSCONFIG_ID = 20
+TCEFORM.pages.backend_layout_next_level.PAGE_TSCONFIG_ID = 20
 
 TCEFORM.tt_content.layout.altLabels.1 = runde Bilder
 TCEFORM.tt_content.layout.removeItems = 2,3
+
+# Image orientation setup
+TCEFORM.tt_content.imageorient {
+  removeItems = 0,1,8,9,17,18,25,26
+  altLabels.2 = oben
+  altLabels.10 = unten
+}
+
+
+
 
 # add pastetoggle button to RTE toolbar
 RTE.default.showButtons := addToList (pastetoggle)

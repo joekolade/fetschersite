@@ -73,3 +73,4 @@ styles.templates.templateRootPath = EXT:fetschersite/Resources/Extensions/fsc/Te
 styles.templates.partialRootPath = EXT:fetschersite/Resources/Extensions/fsc/Partials
 
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:fetschersite/Configuration/TypoScript/Constants/" extension="ts">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:fetschersite/Configuration/TypoScript/Extensions/" extension="tsconst">

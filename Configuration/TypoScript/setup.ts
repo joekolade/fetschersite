@@ -259,4 +259,4 @@ lib.fluidContent.settings.media.popup.linkParams.ATagParams.dataWrap = class="{$
  *
  */
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:fetschersite/Configuration/TypoScript/Setup/" extension="ts">
-#<INCLUDE_TYPOSCRIPT: source="DIR:EXT:fetschersite/Configuration/TypoScript/Extensions/" extension="ts">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:fetschersite/Configuration/TypoScript/Extensions/" extension="tssetup">

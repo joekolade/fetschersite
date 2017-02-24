@@ -15,7 +15,11 @@ TCEFORM.tt_content.imageorient {
   altLabels.2 = oben
   altLabels.10 = unten
 }
-
+# Image columns setup
+TCEFORM.tt_content.imagecols {
+  removeItems = 5,6,7,8
+}
+TCAdefaults.tt_content.imagecols = 1
 
 
 

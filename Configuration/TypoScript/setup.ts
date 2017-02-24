@@ -229,7 +229,7 @@ lib.quickform {
 
   10 = TEXT
   10 {
-    wrap = <a class="btn btn-primary" role="button" data-toggle="collapse" href="#quickFormCollapse" aria-expanded="true" aria-controls="collapseExample">| <i class="fa fa-chevron-down pull-right"></i></a>
+    wrap = <a class="btn btn-primary" role="button" data-toggle="collapse" href="#quickFormCollapse" aria-expanded="false" aria-controls="collapseExample">| <i class="fa fa-chevron-down pull-right"></i></a>
     value = {$fetschersite.text.quickform.toggle}
   }
 

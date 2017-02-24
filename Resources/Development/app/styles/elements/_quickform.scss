@@ -31,19 +31,17 @@
       }
 
       .open, .closed {
-        display: inline-block;
-        overflow: hidden;
-        transition: max-width 0.3s linear;
+        display: inline;
       }
       .open {
-        max-width: 0px;
+        display: none;
       }
       &[aria-expanded="true"] {
         .closed {
-          max-width: 0px;
+          display: none;
         }
         .open {
-          max-width: 100vw;
+          display: inline;
         }
       }
     }

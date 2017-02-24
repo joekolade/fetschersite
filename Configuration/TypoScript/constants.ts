@@ -39,6 +39,7 @@ fetschersite {
     metaNaviRoot = 7
 
     quickform = 22
+    contact = 6
   }
 
   quickformUid = 33

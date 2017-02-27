@@ -23,7 +23,8 @@ figcaption {
         display: flex;
         margin-bottom: 8px;
         .ce-column {
-            margin-right: 10px;
+            padding-right: 10px;
+            margin-right: 0;
             &:last-child {
                 margin-right: 0;
             }

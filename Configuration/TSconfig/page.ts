@@ -31,6 +31,7 @@ RTE.default.buttons.pastetoggle.setActiveOnRteOpen = 1
 RTE.default {
   #angepasste CSS Datei in fileadmin speichern
   contentCSS = EXT:fetschersite/Resources/Public/Css/rte.css
+  showTagFreeClasses = 1
 }
 ## Klassen hinzufuegen
 RTE.default.proc.allowedClasses := addToList(button-link)

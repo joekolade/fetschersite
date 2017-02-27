@@ -11,9 +11,9 @@ TCEFORM.tt_content.layout.removeItems = 2,3
 
 # Image orientation setup
 TCEFORM.tt_content.imageorient {
-  removeItems = 0,1,8,9,17,18,25,26
-  altLabels.2 = oben
-  altLabels.10 = unten
+  removeItems = 1,2,9,10,17,18,25,26
+  altLabels.0 = oben
+  altLabels.8 = unten
 }
 # Image columns setup
 TCEFORM.tt_content.imagecols {

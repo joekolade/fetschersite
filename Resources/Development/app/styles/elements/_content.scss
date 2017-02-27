@@ -98,7 +98,7 @@ b, strong {
   // Border für images
   .border-1 {
     picture {
-      border: thin solid $grey;
+      border: 1px solid $grey-dark;
     }
   }
 }

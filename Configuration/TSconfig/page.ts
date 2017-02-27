@@ -24,7 +24,7 @@ TCAdefaults.tt_content.imagecols = 1
 
 
 # add pastetoggle button to RTE toolbar
-RTE.default.showButtons := addToList (pastetoggle)
+RTE.default.showButtons := addToList (pastetoggle,left,right,center)
 RTE.default.buttons.pastetoggle.setActiveOnRteOpen = 1
 
 

@@ -6,3 +6,5 @@ plugin.tx_powermail.settings.misc.ajaxSubmit = 1
 
 plugin.tx_powermail.settings.styles.bootstrap.offsetClasses =
 plugin.tx_powermail.settings.styles.bootstrap.offsetClassesGeneral = col-sm-offset-2
+
+plugin.tx_powermail.view.partialRootPath = EXT:fetschersite/Resources/Extensions/powermail/Partials/

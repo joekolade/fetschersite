@@ -15,13 +15,15 @@
 
     a.btn[data-toggle="collapse"] {
       text-align: left;
-      font-weight: bold;
+      font-weight: normal;
       font-size: 20px;
       height: $quickform-toggle-height;
       line-height: $quickform-toggle-height * 0.7;
       display: block;
       background-color: rgba($blue, 0.7);
       border: none;
+      text-decoration: none;
+
       i {
         background: none;
         font-size: 1.2em;

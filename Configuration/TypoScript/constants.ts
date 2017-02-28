@@ -21,7 +21,7 @@
 // go_maps_ext
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:go_maps_ext/Configuration/TypoScript/constants.txt">
 // frontend_editing
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:frontend_editing/Configuration/TypoScript/constants.ts">
+#<INCLUDE_TYPOSCRIPT: source="FILE:EXT:frontend_editing/Configuration/TypoScript/constants.ts">
 
 fetschersite {
 

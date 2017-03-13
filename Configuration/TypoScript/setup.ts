@@ -124,7 +124,7 @@ page.10.variables {
     10 = TEXT
     10 {
       typolink.parameter = {$fetschersite.pageIds.root}
-      typolink.ATagParams = class="btn btn-default hidden-xs"
+      typolink.ATagParams = class="btn hidden-xs"
       typolink.ATagBeforeWrap = 1
       typolink.wrap = <i class="fa fa-home"></i><span class="sr-only">|</span>
     }

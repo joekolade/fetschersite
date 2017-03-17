@@ -116,6 +116,7 @@ header.container {
         font-size: $font-size-small;
       }
       // homelink
+      a:first-child,
       a[href="/"]{
         position: absolute;
         left: -$home-icon-width;

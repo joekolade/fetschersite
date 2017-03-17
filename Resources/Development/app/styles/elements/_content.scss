@@ -50,6 +50,8 @@ a {
 
     margin-bottom: 1.5em;
 
+    width: auto;
+
     &:hover {
       background-color: darken($btn-warning-bg, 15%);
       border-color: darken($btn-warning-border, 15%);

@@ -1,3 +1,5 @@
+styles.content.textmedia.maxWInText = 992
+
 tt_content.textmedia.settings.responsive_image_rendering {
     layoutKey = srcset
 
@@ -6,30 +8,35 @@ tt_content.textmedia.settings.responsive_image_rendering {
             dataKey = desktop
             width = 1260m
             srcset = 1260w
+            sizes = auto
         }
 
         20 {
             dataKey = table
             width = 960m
             srcset = 960w
+            sizes = auto
         }
 
         30 {
             dataKey = tablet-small
             width = 720m
             srcset = 720w
+            sizes = auto
         }
 
         40 {
             dataKey = medium
             width = 640m
             srcset = 640w
+            sizes = auto
         }
 
         50 {
             dataKey = medium-phone
             width = 360m
             srcset = 360w
+            sizes = auto
         }
 
         60 {

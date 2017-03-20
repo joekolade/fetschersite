@@ -8,41 +8,42 @@ tt_content.textmedia.settings.responsive_image_rendering {
             dataKey = desktop
             width = 1260m
             srcset = 1260w
-            sizes = auto
+            sizes = 1260w
         }
 
         20 {
             dataKey = table
             width = 960m
             srcset = 960w
-            sizes = auto
+            sizes = 960w
         }
 
         30 {
             dataKey = tablet-small
             width = 720m
             srcset = 720w
-            sizes = auto
+            sizes = 720w
         }
 
         40 {
             dataKey = medium
             width = 640m
+            sizes = 640w
             srcset = 640w
-            sizes = auto
         }
 
         50 {
             dataKey = medium-phone
             width = 360m
+            sizes = 360w
             srcset = 360w
-            sizes = auto
         }
 
         60 {
             dataKey = small
             width = 320m
             srcset = 320w
+            sizes = 320w
         }
     }
 }

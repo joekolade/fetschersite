@@ -13,6 +13,10 @@
   font-size: 19px;
   line-height: 1.2;
 
+  &-nav {
+    margin-bottom: 0;
+  }
+
   li {
     min-width: $item-min-width - 20px;
 
@@ -21,6 +25,12 @@
       color: $navbar-default-link-color;
 
       text-decoration: none;
+
+      i {
+        position: absolute;
+        right: 0;
+        background: $orange-dark;
+      }
     }
     &:hover > a {
       color: $navbar-default-link-hover-color;
@@ -53,6 +63,15 @@
 
   }
 
+  .navbar-collapse {
+    border-top: none;
+
+      a {
+        border-bottom: 1px solid white;
+      }
+
+  }
+
   .subnav {
     z-index: 21;
     max-height: 0;
@@ -62,7 +81,6 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    padding-left: $grid-gutter-width;
     transition: max-height 0.3s linear;
 
     .subnav {
@@ -70,7 +88,9 @@
       top: 0;
       left: 100%;
       padding-left: 1px;
-      padding-left: $grid-gutter-width;
+      a {
+        padding-left: ($grid-gutter-width * 3);
+      }
     }
 
     li {
@@ -81,6 +101,7 @@
         display: block;
         // padding: 11px 15px 12px;
         padding: 9px 15px;
+        padding-left: ($grid-gutter-width * 1.5);
 
       }
     }
@@ -113,7 +134,7 @@
       }
     }
 
-    // hide chevron toggle for mobile
+    // hide chevron toggle for desktop
     a > i.fa-angle-down,
     a > i.fa-chevron-down {
       display: none;

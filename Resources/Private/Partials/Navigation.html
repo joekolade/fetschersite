@@ -17,28 +17,29 @@
         </div>
       </div>
 
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
 
-        <div class="metaNavi">
-          <!-- Language de/en/fr -->
-          <nav class="lang">
-            <ul class="list-inline">
-              <li class="active"><a href="#"><span class="sr-only">de</span>
-                <img src="typo3conf/ext/fetschersite/Resources/Public/Images/Flags/lang_de.png" class="img-responsive" alt="de">
-              </a></li>
-              <li><a href="#"><span class="sr-only">fr</span>
-                <img src="typo3conf/ext/fetschersite/Resources/Public/Images/Flags/lang_fr.png" class="img-responsive" alt="fr">
-              </a></li>
-              <li><a href="#"><span class="sr-only">en</span>
-                <img src="typo3conf/ext/fetschersite/Resources/Public/Images/Flags/lang_en.png" class="img-responsive" alt="en">
-              </a></li>
-            </ul>
-          </nav>
-          <!-- Metamenu -->
-          <nav class="meta">
-            {metaNavi -> f:format.raw()}
-          </nav>
-        </div>
+      <div class="metaNavi">
+        <!-- Language de/en/fr -->
+        <nav class="lang">
+          <ul class="list-inline">
+            <li class="active"><a href="#"><span class="sr-only">de</span>
+              <img src="typo3conf/ext/fetschersite/Resources/Public/Images/Flags/lang_de.png" class="img-responsive" alt="de">
+            </a></li>
+            <li><a href="#"><span class="sr-only">fr</span>
+              <img src="typo3conf/ext/fetschersite/Resources/Public/Images/Flags/lang_fr.png" class="img-responsive" alt="fr">
+            </a></li>
+            <li><a href="#"><span class="sr-only">en</span>
+              <img src="typo3conf/ext/fetschersite/Resources/Public/Images/Flags/lang_en.png" class="img-responsive" alt="en">
+            </a></li>
+          </ul>
+        </nav>
+        <!-- Metamenu -->
+        <nav class="meta">
+          {metaNavi -> f:format.raw()}
+        </nav>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
 
         <ul class="nav navbar-nav">
           {mainNavi -> f:format.raw()}

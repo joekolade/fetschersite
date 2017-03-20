@@ -140,6 +140,10 @@ page.10.variables {
       1.NO.ATagParams = class="btn"
     }
   }
+  metaNaviFooter < .metaNavi
+  metaNaviFooter {
+    20.1.NO.ATagParams = class="btn" rel="nofollow"
+  }
 
   contentStage = COA
   contentStage {

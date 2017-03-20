@@ -163,7 +163,7 @@
   }
 
   /* Responsive: Portrait tablets and up */
-  @media screen and (min-width: 880px) {
+  @media screen and (min-width: 1000px) {
     li {
       min-width: $item-min-width;
     }
@@ -227,6 +227,8 @@ a {
   background: $orange;
   border: solid white;
   border-width: 0 1px;
+  position: relative;
+  z-index: 2;
 
   .scroller {
     background: white;

@@ -3,47 +3,37 @@ styles.content.textmedia.maxWInText = 992
 tt_content.textmedia.settings.responsive_image_rendering {
     layoutKey = srcset
 
+    # Default Breakpoints
     sourceCollection {
-        10 {
-            dataKey = desktop
-            width = 1260
-            srcset = 1260w
-            sizes = 1260w
+        xl {
+            dataKey = extra-large
+            width = 1200
+            srcset = 1200w
         }
 
-        20 {
-            dataKey = table
-            width = 960
-            srcset = 960w
-            sizes = 960w
+        lg {
+            data-key = large
+            width = 992
+            srcset = 992w
         }
 
-        30 {
-            dataKey = tablet-small
-            width = 720
+        md {
+            data-key = medium
+            width = 768
             srcset = 768w
-            sizes = 720w
         }
 
-        40 {
-            dataKey = medium
-            width = 640
-            sizes = 640w
-            srcset = 640w
+        sm {
+            data-key = small
+            width = 480
+            srcset = 480w
         }
 
-        50 {
-            dataKey = medium-phone
-            width = 360
-            sizes = 360w
-            srcset = 360w
-        }
-
-        60 {
-            dataKey = small
+        xs {
+            dataKey = extra-small
             width = 320
             srcset = 320w
-            sizes = 320w
+            sizes = auto
         }
     }
 }

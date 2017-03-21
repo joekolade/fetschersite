@@ -166,7 +166,7 @@ gulp.task('wiredep', () => {
 });
 
 // gulp: typo3
-gulp.task('t3copyStyles', () => {
+gulp.task('t3copyStyles', ['html'], () => {
   return gulp.src([
     'dist/styles/**/*'
     ], {
@@ -184,7 +184,7 @@ gulp.task('typo3', ['t3copyStyles'], () => {
   gulp.start('t3copyJs');
 });
 
-gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
+gulp.task('build', ['lint', 'images', 'fonts', 'extras', 'typo3'], () => {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 

@@ -278,6 +278,16 @@ lib.langSwitch {
     }
 }
 
+[PIDinRootline = {$fetschersite.pageIds.root}]
+    lib.langSwitch.10.wrap = <li class="active">|</li>
+[global]
+[PIDinRootline = {$fetschersite.pageIds.rootEN}]
+    lib.langSwitch.20.wrap = <li class="active">|</li>
+[global]
+[PIDinRootline = {$fetschersite.pageIds.rootFR}]
+    lib.langSwitch.30.wrap = <li class="active">|</li>
+[global]
+
 /**
 * Lightbox und Title
 *

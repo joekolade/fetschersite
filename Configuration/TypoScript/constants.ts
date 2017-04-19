@@ -36,6 +36,7 @@ fetschersite {
     pageIds {
         root = 1
 
+        rootDE = 1
         rootEN = 31
         rootFR = 53
 

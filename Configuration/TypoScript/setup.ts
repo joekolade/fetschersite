@@ -278,7 +278,7 @@ lib.langSwitch {
     }
 }
 
-[PIDinRootline = {$fetschersite.pageIds.root}]
+[PIDinRootline = {$fetschersite.pageIds.rootDE}]
     lib.langSwitch.10.wrap = <li class="active">|</li>
 [global]
 [PIDinRootline = {$fetschersite.pageIds.rootEN}]

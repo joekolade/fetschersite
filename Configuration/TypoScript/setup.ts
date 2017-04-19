@@ -1,6 +1,6 @@
 /**
- * TS Includes
- */
+* TS Includes
+*/
 
 // FSC
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/Static/setup.txt">
@@ -30,239 +30,240 @@
 #<INCLUDE_TYPOSCRIPT: source="FILE:EXT:frontend_editing/Configuration/TypoScript/setup.ts">
 
 /**
- * Template
- *
- */
+* Template
+*
+*/
 
 page = PAGE
 page.10 = FLUIDTEMPLATE
 page.10 {
-  templateName = Page
-  layoutRootPaths {
-    10 = EXT:fetschersite/Resources/Private/Layouts
-  }
-  templateRootPaths {
-    10 = EXT:fetschersite/Resources/Private/Templates
-  }
-  partialRootPaths {
-    10 = EXT:fetschersite/Resources/Private/Partials
-  }
+    templateName = Page
+    layoutRootPaths {
+        10 = EXT:fetschersite/Resources/Private/Layouts
+    }
+
+    templateRootPaths {
+        10 = EXT:fetschersite/Resources/Private/Templates
+    }
+
+    partialRootPaths {
+        10 = EXT:fetschersite/Resources/Private/Partials
+    }
 }
 
 config.baseURL = http://{$fetschersite.site.domain}/
 config.tx_realurl_enable = 1
 config.tx_frontend_editing = 1
 
-
 /**
- * Sytles & Scripts
- *
- */
+* Sytles & Scripts
+*
+*/
 page.includeCSS {
-  main = EXT:fetschersite/Resources/Public/Css/main.css
+    main = EXT:fetschersite/Resources/Public/Css/main.css
 }
+
 page.includeJS.modernizr = EXT:fetschersite/Resources/Public/JavaScripts/vendor/modernizr.js
 page.includeJS {
-  vendor = EXT:fetschersite/Resources/Public/JavaScripts/vendor.js
+    vendor = EXT:fetschersite/Resources/Public/JavaScripts/vendor.js
 }
+
 page.includeJSFooter {
-  plugins = EXT:fetschersite/Resources/Public/JavaScripts/plugins.js
-  main = EXT:fetschersite/Resources/Public/JavaScripts/main.js
+    plugins = EXT:fetschersite/Resources/Public/JavaScripts/plugins.js
+    main = EXT:fetschersite/Resources/Public/JavaScripts/main.js
 }
 
 /**
- * Content Elements
- * & Variables
- *
- */
+* Content Elements
+* & Variables
+*
+*/
 page.10.variables {
+    layout = TEXT
+    layout.data = levelfield:-2,backend_layout_next_level,slide
+    layout.override.field = backend_layout
 
-  layout = TEXT
-  layout.data = levelfield:-2,backend_layout_next_level,slide
-  layout.override.field = backend_layout
+    logoFile = TEXT
+    logoFile.value = {$fetschersite.site.logoFile}
 
-  logoFile = TEXT
-  logoFile.value = {$fetschersite.site.logoFile}
+    sitename = TEXT
+    sitename.value = {$fetschersite.site.name}
 
-  sitename = TEXT
-  sitename.value = {$fetschersite.site.name}
+    claim = TEXT
+    claim.value = {$fetschersite.site.claim}
 
-  claim = TEXT
-  claim.value = {$fetschersite.site.claim}
+    pageIds_root = TEXT
+    pageIds_root.value = {$fetschersite.pageIds.root}
 
-  pageIds_root = TEXT
-  pageIds_root.value = {$fetschersite.pageIds.root}
+    fetscherLogoFile = TEXT
+    fetscherLogoFile.value = {$fetschersite.site.fetscherLogoFile}
 
-  fetscherLogoFile = TEXT
-  fetscherLogoFile.value = {$fetschersite.site.fetscherLogoFile}
+    mainNavi = HMENU
+    mainNavi {
+        special = directory
+        special.value = {$fetschersite.pageIds.root}
 
-  mainNavi = HMENU
-  mainNavi {
+        1 = TMENU
+        1 {
+            expAll = 1
 
-    entryLevel = 1
+            NO = 1
+            NO.wrapItemAndSub = <li>|</li>
 
-    1 = TMENU
-    1 {
-      expAll = 1
+            ACT < .NO
+            ACT.wrapItemAndSub = <li class="active">|</li>
 
-      NO = 1
-      NO.wrapItemAndSub = <li>|</li>
+            CUR < .ACT
+        }
 
-      ACT < .NO
-      ACT.wrapItemAndSub = <li class="active">|</li>
+        2 < .1
+        2.wrap = <ul class="subnav">|</ul>
 
-      CUR < .ACT
+        3 < .2
     }
 
-    2 < .1
-    2.wrap = <ul class="subnav">|</ul>
+    metaNavi = COA
+    metaNavi {
+        10 = TEXT
+        10 {
+            typolink.parameter = {$fetschersite.pageIds.root}
+            typolink.ATagParams = class="btn hidden-xs"
+            typolink.ATagBeforeWrap = 1
+            typolink.wrap = <i class="fa fa-home"></i><span class="sr-only">|</span>
+        }
 
-    3 < .2
+        20 = HMENU
+        20 {
+            special = directory
+            special.value = {$fetschersite.pageIds.metaNaviRoot}
+            special.value = 7
 
-  }
-
-  metaNavi = COA
-  metaNavi  {
-    10 = TEXT
-    10 {
-      typolink.parameter = {$fetschersite.pageIds.root}
-      typolink.ATagParams = class="btn hidden-xs"
-      typolink.ATagBeforeWrap = 1
-      typolink.wrap = <i class="fa fa-home"></i><span class="sr-only">|</span>
+            1 = TMENU
+            1.NO = 1
+            1.NO.ATagParams = class="btn"
+        }
     }
 
-    20 = HMENU
-    20 {
-      special = directory
-      special.value = {$fetschersite.pageIds.metaNaviRoot}
-      special.value = 7
-
-      1 = TMENU
-      1.NO = 1
-      1.NO.ATagParams = class="btn"
-    }
-  }
-  metaNaviFooter < .metaNavi
-  metaNaviFooter {
-    20.1.NO.ATagParams = class="btn" rel="nofollow"
-  }
-
-  contentStage = COA
-  contentStage {
-    10 < styles.content.get
-    10 {
-      select.where = colPos = 11
-      select.languageField = sys_language_uid
-    }
-  }
-  contentMain = < styles.content.get
-  contentMain {
-    select.where = colPos = 12
-    select.languageField = sys_language_uid
-  }
-
-  contentFooter = COA
-  contentFooter {
-    10 < styles.content.get
-    10 {
-      select.where = colPos = 21
-      select.languageField = sys_language_uid
-      wrap = <div class="col-sm-3">|</div>
-      slide = -1
+    metaNaviFooter < .metaNavi
+    metaNaviFooter {
+        20.1.NO.ATagParams = class="btn" rel="nofollow"
     }
 
-    20 < .10
-    20.select.where = colPos = 22
+    contentStage = COA
+    contentStage {
+        10 < styles.content.get
+        10 {
+            select.where = colPos = 11
+            select.languageField = sys_language_uid
+        }
+    }
 
-    30 < .10
-    30.select.where = colPos = 23
+    contentMain =< styles.content.get
+    contentMain {
+        select.where = colPos = 12
+        select.languageField = sys_language_uid
+    }
 
-    40 < .10
-    40.select.where = colPos = 24
-  }
+    contentFooter = COA
+    contentFooter {
+        10 < styles.content.get
+        10 {
+            select.where = colPos = 21
+            select.languageField = sys_language_uid
+            wrap = <div class="col-sm-3">|</div>
+            slide = -1
+        }
 
+        20 < .10
+        20.select.where = colPos = 22
+
+        30 < .10
+        30.select.where = colPos = 23
+
+        40 < .10
+        40.select.where = colPos = 24
+    }
 }
 
 lib.superFooterText = COA
 lib.superFooterText {
-  10 = CONTENT
-  10 {
-    table = pages
-    select {
-      pidInList = 0
-      uidInList = 1
-    }
+    10 = CONTENT
+    10 {
+        table = pages
+        select {
+            pidInList = 0
+            uidInList = 1
+        }
 
-    renderObj = COA
-    renderObj {
-      10 = TEXT
-      10 {
-        field = tx_mask_agencyfootertext
-        parseFunc = < lib.parseFunc_RTE
-      }
+        renderObj = COA
+        renderObj {
+            10 = TEXT
+            10 {
+                field = tx_mask_agencyfootertext
+                parseFunc =< lib.parseFunc_RTE
+            }
+        }
     }
-  }
 }
 
 lib.superFooterLogo < lib.superFooterText
 lib.superFooterLogo {
-  10.renderObj {
+    10.renderObj {
+        10 >
+        10 = FILES
+        10 {
+            references {
+                table = pages
+                fieldName = tx_mask_agencylogo
+                uid.data = uid
+            }
 
-    10 >
-    10 = FILES
-    10 {
-      references {
-        table = pages
-        fieldName = tx_mask_agencylogo
-        uid.data = uid
-      }
-      renderObj = IMAGE
-      renderObj {
-        file.import.data = file:current:originalUid // file:current:uid
-        altText.field = tx_mask_agencyname
-        titleText.field = tx_mask_agencyname
+            renderObj = IMAGE
+            renderObj {
+                file.import.data = file:current:originalUid // file:current:uid
+                altText.field = tx_mask_agencyname
+                titleText.field = tx_mask_agencyname
 
-        stdWrap.typolink.parameter.field = tx_mask_agencyhomepage
-        stdWrap.typolink.extTarget = _blank
-      }
+                stdWrap.typolink.parameter.field = tx_mask_agencyhomepage
+                stdWrap.typolink.extTarget = _blank
+            }
+        }
     }
-  }
 }
 
 lib.quickform = COA
 lib.quickform {
-  wrap = <div class="quick"><div class="quickInner">|</div></div>
+    wrap = <div class="quick"><div class="quickInner">|</div></div>
 
-  10 = TEXT
-  10 {
-    wrap = <a class="btn btn-primary" role="button" data-toggle="collapse" href="#quickFormCollapse" aria-expanded="false" aria-controls="collapseExample">| <i class="fa fa-chevron-down pull-right"></i></a>
-    value = {$fetschersite.text.quickform.toggle}
-  }
-
-  20 = CONTENT
-  20 {
-    table = tt_content
-    select {
-      pidInList = 22
-      #{$site.pageIds.quickform}
-      uidInList = 33
-      #.data = {$site.quickformUid}
-
+    10 = TEXT
+    10 {
+        wrap = <a class="btn btn-primary" role="button" data-toggle="collapse" href="#quickFormCollapse" aria-expanded="false" aria-controls="collapseExample">| <i class="fa fa-chevron-down pull-right"></i></a>
+        value = {$fetschersite.text.quickform.toggle}
     }
-    wrap = <div class="ollapse collapse" id="quickFormCollapse" aria-expanded="true">|<div class="footer"><a href="tel:+49735194090"><i class="fa fa-phone"></i> +49 (0)7351 9409-0</a></div></div>
-  }
 
+    20 = CONTENT
+    20 {
+        table = tt_content
+        select {
+            pidInList = 22
+            #{$site.pageIds.quickform}
+            uidInList = 33
+            #.data = {$site.quickformUid}
+        }
+
+        wrap = <div class="ollapse collapse" id="quickFormCollapse" aria-expanded="true">|<div class="footer"><a href="tel:+49735194090"><i class="fa fa-phone"></i> +49 (0)7351 9409-0</a></div></div>
+    }
 }
 
 /**
- * Lightbox und Title
- *
- */
+* Lightbox und Title
+*
+*/
 lib.fluidContent.settings.media.popup.linkParams.ATagParams.dataWrap = class="{$styles.content.textmedia.linkWrap.lightboxCssClass}" rel="{$styles.content.textmedia.linkWrap.lightboxRelAttribute}" title="{file:current:title}"
 
 /**
- * Includes
- *
- */
+* Includes
+*
+*/
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:fetschersite/Configuration/TypoScript/Setup/" extension="ts">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:fetschersite/Configuration/TypoScript/Extensions/" extension="tssetup">

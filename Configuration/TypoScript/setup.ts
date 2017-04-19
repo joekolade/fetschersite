@@ -136,7 +136,6 @@ page.10.variables {
         20 {
             special = directory
             special.value = {$fetschersite.pageIds.metaNaviRoot}
-            special.value = 7
 
             1 = TMENU
             1.NO = 1

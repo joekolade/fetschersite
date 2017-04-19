@@ -99,6 +99,8 @@ page.10.variables {
   mainNavi = HMENU
   mainNavi {
 
+    entryLevel = 1
+
     1 = TMENU
     1 {
       expAll = 1

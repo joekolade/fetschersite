@@ -35,6 +35,10 @@ fetschersite {
 
     pageIds {
         root = 1
+
+        rootEN = 31
+        rootFR = 53
+
         metaNaviRoot = 7
 
         quickform = 22
@@ -73,3 +77,4 @@ styles.templates.partialRootPath = EXT:fetschersite/Resources/Extensions/fsc/Par
 
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:fetschersite/Configuration/TypoScript/Constants/" extension="ts">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:fetschersite/Configuration/TypoScript/Extensions/" extension="tsconst">
+

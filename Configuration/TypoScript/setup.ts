@@ -254,6 +254,30 @@ lib.quickform {
     }
 }
 
+lib.langSwitch = COA
+lib.langSwitch {
+    wrap = <ul class="list-inline">|</ul>
+
+    10 = TEXT
+    10 {
+        wrap = <li>|</li>
+        typolink.parameter = {$fetschersite.pageIds.root}
+        value = <span class="sr-only">de</span><img src="typo3conf/ext/fetschersite/Resources/Public/Images/Flags/lang_de.png" class="img-responsive" alt="de">
+    }
+
+    20 < .10
+    20 {
+        typolink.parameter = {$fetschersite.pageIds.rootEN}
+        value = <span class="sr-only">en</span><img src="typo3conf/ext/fetschersite/Resources/Public/Images/Flags/lang_en.png" class="img-responsive" alt="en">
+    }
+
+    30 < .10
+    30 {
+        typolink.parameter = {$fetschersite.pageIds.rootFR}
+        value = <span class="sr-only">fr</span><img src="typo3conf/ext/fetschersite/Resources/Public/Images/Flags/lang_fr.png" class="img-responsive" alt="fr">
+    }
+}
+
 /**
 * Lightbox und Title
 *

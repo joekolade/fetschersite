@@ -184,6 +184,22 @@ page.10.variables {
     }
 }
 
+[treeLevel = 3,4,5,6,7,8,9,10]
+
+    page.10.variables.breadCrumb = HMENU
+    page.10.variables.breadCrumb {
+        special = rootline
+        wrap = <ul class="breadcrumb">|</ul>
+
+        1 = TMENU
+        1 {
+            NO = 1
+            NO.wrapItemAndSub = <li>|</li>
+        }
+    }
+
+[global]
+
 lib.superFooterText = COA
 lib.superFooterText {
     10 = CONTENT

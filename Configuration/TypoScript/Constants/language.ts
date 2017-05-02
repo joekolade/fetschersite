@@ -14,7 +14,7 @@ fetschersite {
         language.key = en_UK
 
         text {
-            quickform.toggle = <span class="closed">open</span><span class="open">close</span> quick request
+            quickform.toggle = <span class="closed">Open</span><span class="open">Close</span> quick request
         }
     }
 
@@ -26,7 +26,7 @@ fetschersite {
         language.key = fr_FR
 
         text {
-            quickform.toggle = <span class="closed">ouvrir</span><span class="open">fermer</span> l'enquête rapid
+            quickform.toggle = <span class="closed">Ouvrir</span><span class="open">Fermer</span> l'enquête rapid
         }
     }
 [global]

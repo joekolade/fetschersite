@@ -185,25 +185,20 @@ page.10.variables {
 }
 
 [treeLevel = 2,3,4,5,6,7,8,9,10]
-
     lib.breadCrumb = COA
     lib.breadCrumb {
-        5 = TEXT
-        5.value = BC:
         10 = HMENU
         10 {
-
-        special = rootline
-        wrap = <ul class="breadcrumb">|</ul>
-
-        1 = TMENU
-        1 {
-            NO = 1
-            NO.wrapItemAndSub = <li>|</li>
-        }
+            special = rootline
+            wrap = <ul class="breadcrumb">|</ul>
+            entryLevel = 1
+            1 = TMENU
+            1 {
+                NO = 1
+                NO.wrapItemAndSub = <li>|</li>
+            }
         }
     }
-
 [global]
 
 lib.superFooterText = COA
@@ -309,6 +304,7 @@ lib.langSwitch.30.wrap = <li class="">|</li>
     lib.langSwitch.20.wrap = <li class="active">|</li>
     lib.langSwitch.30.wrap = <li class="">|</li>
 [global]
+
 [PIDinRootline = {$fetschersite.pageIds.rootFR}]
     lib.langSwitch.10.wrap = <li class="">|</li>
     lib.langSwitch.20.wrap = <li class="">|</li>

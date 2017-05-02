@@ -274,9 +274,7 @@ lib.quickform {
         table = tt_content
         select {
             pidInList = 22
-            #{$site.pageIds.quickform}
             uidInList = 33
-            #.data = {$site.quickformUid}
         }
 
         wrap = <div class="ollapse collapse" id="quickFormCollapse" aria-expanded="true">|<div class="footer"><a href="tel:+49735194090"><i class="fa fa-phone"></i> +49 (0)7351 9409-0</a></div></div>

@@ -188,9 +188,11 @@ page.10.variables {
     lib.breadCrumb = COA
     lib.breadCrumb {
         wrap = <ul class="breadcrumb">|</ul>
+
         5 = TEXT
         5.typolink.parameter = {$fetschersite.pageIds.root}
         5.value = <i class="fa fa-home"></i>
+        5.wrap = <li>|</li>
 
         10 = HMENU
         10 {

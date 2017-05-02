@@ -261,7 +261,7 @@ lib.langSwitch {
     10 = TEXT
     10 {
         wrap = <li>|</li>
-        typolink.parameter = {$fetschersite.pageIds.root}
+        typolink.parameter = {$fetschersite.pageIds.rootDE}
         value = <span class="sr-only">de</span><img src="typo3conf/ext/fetschersite/Resources/Public/Images/Flags/lang_de.png" class="img-responsive" alt="de">
     }
 

@@ -198,7 +198,7 @@ page.10.variables {
         10 = HMENU
         10 {
             special = rootline
-            special.range = 3|-1
+            special.range = 2|-1
 
             1 = TMENU
             1 {

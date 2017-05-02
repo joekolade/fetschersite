@@ -185,8 +185,7 @@ page.10.variables {
 }
 
 [treeLevel = 2,3,4,5,6,7,8,9,10]
-    lib.
->
+    lib.breadCrumb >
     lib.breadCrumb = COA
     lib.breadCrumb {
         wrap = <ul class="breadcrumb">|</ul>

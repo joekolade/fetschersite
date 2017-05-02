@@ -16,6 +16,8 @@ fetschersite {
         text {
             quickform.toggle = <span class="closed">Open</span><span class="open">Close</span> quick request
         }
+
+        quickformUid = 370
     }
 
 [global]
@@ -28,5 +30,7 @@ fetschersite {
         text {
             quickform.toggle = <span class="closed">Ouvrir</span><span class="open">Fermer</span> l'enquête rapid
         }
+
+        quickformUid = 573
     }
 [global]

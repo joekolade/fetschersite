@@ -7,7 +7,7 @@ fetschersite {
     }
 }
 
-[PIDinRootline = {$fetschersite.pageIds.rootEN}]
+[PIDinRootline = 31]
 
     fetschersite {
         language = en
@@ -20,7 +20,7 @@ fetschersite {
 
 [global]
 
-[PIDinRootline = {$fetschersite.pageIds.rootFR}]
+[PIDinRootline = 53]
     fetschersite {
         language = fr
         language.key = fr_FR

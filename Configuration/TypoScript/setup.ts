@@ -187,11 +187,15 @@ page.10.variables {
 [treeLevel = 2,3,4,5,6,7,8,9,10]
     lib.breadCrumb = COA
     lib.breadCrumb {
+        wrap = <ul class="breadcrumb">|</ul>
+        5 = TEXT
+        5.typolink = /
+        5.value = <i class="fa fa-home" />
+
         10 = HMENU
         10 {
             special = rootline
-            wrap = <ul class="breadcrumb">|</ul>
-            entryLevel = 1
+            special.range = 2|-1
             1 = TMENU
             1 {
                 NO = 1

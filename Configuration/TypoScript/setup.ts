@@ -185,6 +185,7 @@ page.10.variables {
 }
 
 [treeLevel = 2,3,4,5,6,7,8,9,10]
+    lib.breadCrumb >
     lib.breadCrumb = COA
     lib.breadCrumb {
         wrap = <ul class="breadcrumb">|</ul>
@@ -198,6 +199,7 @@ page.10.variables {
         10 {
             special = rootline
             special.range = 2|-1
+
             1 = TMENU
             1 {
                 NO = 1

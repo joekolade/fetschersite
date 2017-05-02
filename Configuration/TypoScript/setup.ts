@@ -186,8 +186,13 @@ page.10.variables {
 
 [treeLevel = 3,4,5,6,7,8,9,10]
 
-    page.10.variables.breadCrumb = HMENU
+    page.10.variables.breadCrumb = COA
     page.10.variables.breadCrumb {
+        5 = TEXT
+        5.value = BC:
+        10 = HMENU
+        10 {
+
         special = rootline
         wrap = <ul class="breadcrumb">|</ul>
 
@@ -195,6 +200,7 @@ page.10.variables {
         1 {
             NO = 1
             NO.wrapItemAndSub = <li>|</li>
+        }
         }
     }
 

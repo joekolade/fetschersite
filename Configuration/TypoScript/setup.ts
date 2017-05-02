@@ -188,24 +188,28 @@ page.10.variables {
     lib.breadCrumb >
     lib.breadCrumb = COA
     lib.breadCrumb {
-        wrap = <ul class="breadcrumb">|</ul>
+        wrap = <ol class="breadcrumb hidden-xs">|</ol>
 
-        5 = TEXT
-        5.typolink.parameter = {$fetschersite.pageIds.root}
-        5.value = <i class="fa fa-home"></i>
-        5.wrap = <li>|</li>
+#        5 = TEXT
+#        5.typolink.parameter = {$fetschersite.pageIds.root}
+#        5.value = <i class="fa fa-home"></i>
+#        5.wrap = <li>|</li>
 
         10 = HMENU
         10 {
             special = rootline
-            special.range = 2|-1
+            special.range = 1|-1
 
             1 = TMENU
             1 {
                 NO = 1
                 NO.wrapItemAndSub = <li>|</li>
+
+                CUR < .NO
+                CUR.wrapItemAndSub = <li class="active">|</li>
             }
         }
+
     }
 [global]
 

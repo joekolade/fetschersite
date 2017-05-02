@@ -26,6 +26,8 @@ $font-size-h3:            ceil(($font-size-base * 1.33333)); // ~20px
 // $font-size-h5:            $font-size-base !default;
 // $font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
 
+$font-weight-bold: 600;
+
 //
 // Colors
 //
@@ -96,3 +98,9 @@ $footer-bg-color: $blue-light;
 
 $superfooter-color: white;
 $superfooter-bg-color: $blue-dark;
+
+
+// Breadcrumb
+//
+
+$breadcrumb-color: lighten($text-color, 20%);

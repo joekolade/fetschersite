@@ -188,7 +188,7 @@ page.10.variables {
     lib.breadCrumb >
     lib.breadCrumb = COA
     lib.breadCrumb {
-        wrap = <ol class="breadcrumb hidden-xs">|</ol>
+        wrap = <div class="container bc"><ol class="breadcrumb hidden-xs">|</ol></div>
 
 #        5 = TEXT
 #        5.typolink.parameter = {$fetschersite.pageIds.root}

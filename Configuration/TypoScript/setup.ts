@@ -52,7 +52,7 @@ page.10 {
 }
 
 page.meta {
-    viewport = "width=device-width, initial-scale=1"
+    viewport = width=device-width, initial-scale=1
 }
 
 config.baseURL = http://{$fetschersite.site.domain}/

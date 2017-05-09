@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dcc26b1-044f-46f1-8c09-d555e477de57" name="Default" comment="">
+    <list default="true" id="8dcc26b1-044f-46f1-8c09-d555e477de57" name="Default" comment="Meta viewport">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/TypoScript/setup.ts" afterPath="$PROJECT_DIR$/Configuration/TypoScript/setup.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/TypoScript/constants.ts" afterPath="$PROJECT_DIR$/Configuration/TypoScript/constants.ts" />
     </list>
     <ignored path="Resources/Development/node_modules/" />
     <ignored path="Resources/Development/bower_components/" />
@@ -76,11 +76,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="setup.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/setup.ts">
+      <file leaf-file-name="constants.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/constants.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="54" column="15" lean-forward="true" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
+            <state relative-caret-position="80">
+              <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -113,7 +113,6 @@
         <option value="$PROJECT_DIR$/Resources/Development/app/styles/elements/_footer.scss" />
         <option value="$PROJECT_DIR$/Resources/Development/app/styles/elements/_responsive_images.scss" />
         <option value="$PROJECT_DIR$/Resources/Private/Partials/Navigation.html" />
-        <option value="$PROJECT_DIR$/Configuration/TypoScript/constants.ts" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Page.html" />
         <option value="$PROJECT_DIR$/Resources/Development/app/styles/_variables.scss" />
         <option value="$PROJECT_DIR$/Configuration/TypoScript/Constants/language.ts" />
@@ -123,6 +122,7 @@
         <option value="$PROJECT_DIR$/Resources/Development/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/Resources/Development/app/styles/elements/_navigation.scss" />
         <option value="$PROJECT_DIR$/Configuration/TypoScript/setup.ts" />
+        <option value="$PROJECT_DIR$/Configuration/TypoScript/constants.ts" />
       </list>
     </option>
   </component>
@@ -543,7 +543,7 @@
       <workItem from="1493906367777" duration="125000" />
       <workItem from="1494272543216" duration="470000" />
       <workItem from="1494314699806" duration="7000" />
-      <workItem from="1494352995203" duration="401000" />
+      <workItem from="1494352995203" duration="682000" />
     </task>
     <task id="LOCAL-00001" summary="Unversioned?">
       <created>1491384839093</created>
@@ -832,11 +832,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494353382119</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Meta viewport">
+      <created>1494353568105</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1494353568105</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8118000" />
+    <option name="totallyTimeSpent" value="8399000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1128,13 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/constants.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Setup/language.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1203,6 +1203,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="54" column="15" lean-forward="true" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/constants.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding />
         </state>
       </provider>

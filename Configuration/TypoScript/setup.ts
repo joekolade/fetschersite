@@ -51,6 +51,10 @@ page.10 {
     }
 }
 
+page.meta {
+    viewport = "width=device-width, initial-scale=1"
+}
+
 config.baseURL = http://{$fetschersite.site.domain}/
 config.tx_realurl_enable = 1
 config.tx_frontend_editing = 1

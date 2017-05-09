@@ -54,7 +54,7 @@ page.10 {
 page.meta {
     viewport = width=device-width, initial-scale=1
     # bing webmaster
-    msvalidate.01 = 02FC1675B548F7BD5B15EF669CF55844
+    msvalidate\.01 = 02FC1675B548F7BD5B15EF669CF55844
     # google site verification
     google-site-verification = 9x4g8j2RqMmROgs0wXzcCpTN6Qrusl9gNYabbr5sdRI
 }

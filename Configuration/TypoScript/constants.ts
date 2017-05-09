@@ -81,3 +81,9 @@ styles.templates.partialRootPath = EXT:fetschersite/Resources/Extensions/fsc/Par
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:fetschersite/Configuration/TypoScript/Constants/" extension="ts">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:fetschersite/Configuration/TypoScript/Extensions/" extension="tsconst">
 
+
+/**
+* Cs_sea
+* https://docs.typo3.org/typo3cms/extensions/cs_seo/Developer/ExtendSitemap/Index.html#extend-sitemap
+*/
+plugin.tx_csseo.sitemap.pages.rootPid = 27

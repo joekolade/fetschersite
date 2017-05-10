@@ -62,6 +62,7 @@ page.meta {
 config.baseURL = http://{$fetschersite.site.domain}/
 config.tx_realurl_enable = 1
 config.tx_frontend_editing = 1
+config.moveJsFromHeaderToFooter = 1
 
 /**
 * Sytles & Scripts

@@ -10,8 +10,14 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:powermail/Configuration/TypoScript/Main/constants.txt">
 // powermail bootstrap
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:powermail/Configuration/TypoScript/BootstrapClassesAndLayout/constants.txt">
+// cs_seo
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:cs_seo/Configuration/TypoScript/constants.txt">
 // jh_magnifiq
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:jh_magnificpopup/Configuration/TypoScript/Default/constants.txt">
+// scriptmerger
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:scriptmerger/Configuration/constants.txt">
+// sourceopt
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sourceopt/Configuration/TypoScript/constants.txt">
 // go_maps_ext
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:go_maps_ext/Configuration/TypoScript/constants.txt">
 // frontend_editing
@@ -56,7 +62,8 @@ fetschersite {
 
 plugin.tx_scriptmerger.css.compress.enable = 0
 plugin.tx_scriptmerger.javascript.compress.enable = 0
-plugin.tx_scriptmerger.css.enable = 0
+plugin.tx_scriptmerger.css.enable = 1
+plugin.tx_scriptmerger.javascript.enable = 1
 
 /**
 * Activate lightbox

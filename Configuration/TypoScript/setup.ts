@@ -32,8 +32,23 @@ config.baseURL = http://{$fetschersite.site.domain}/
 config.tx_realurl_enable = 1
 config.tx_frontend_editing = 1
 
+# JS Comment in the <head> tag
+
+config.headerComment (
+**********************************************************
+*/*                                                    */*
+*/*      Schäfer - Büro für Webentwicklung             */*
+*/*                                                    */*
+*/*      Biberach                                      */*
+*/*      schaefer-webentwicklung.de                    */*
+*/*      mail@schaefer-webentwicklung.de               */*
+*/*                                                    */*
+**********************************************************
+)
+
+
 /**
-* Sytles & Scripts
+* Styles & Scripts
 *
 */
 page.includeCSS {
@@ -127,15 +142,6 @@ page.10.variables {
         20.1.NO.ATagParams = class="btn" rel="nofollow"
     }
 
-    contentStage = COA
-    contentStage {
-        10 < styles.content.get
-        10 {
-            select.where = colPos = 11
-            select.languageField = sys_language_uid
-        }
-    }
-
     contentMain =< styles.content.get
     contentMain {
         select.where = colPos = 12
@@ -160,6 +166,17 @@ page.10.variables {
 
         40 < .10
         40.select.where = colPos = 24
+    }
+}
+
+lib {
+    contentStage = COA
+    contentStage {
+        10 =< styles.content.get
+        10 {
+            select.where = colPos = 11
+            #select.languageField = sys_language_uid
+        }
     }
 }
 

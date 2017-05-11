@@ -55,15 +55,6 @@ fetschersite {
     }
 }
 
-/**
-* scriptmerger_constants.ts
-*
-*/
-
-plugin.tx_scriptmerger.css.compress.enable = 0
-plugin.tx_scriptmerger.javascript.compress.enable = 0
-plugin.tx_scriptmerger.css.enable = 1
-plugin.tx_scriptmerger.javascript.enable = 1
 
 /**
 * Activate lightbox

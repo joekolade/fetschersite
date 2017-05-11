@@ -37,6 +37,8 @@ config.tx_frontend_editing = 1
 *
 */
 page.includeCSS {
+    googlefont = https://fonts.googleapis.com/css?family=Signika:300,600
+    googlefont.external = 1
     main = EXT:fetschersite/Resources/Public/Css/main.css
 }
 

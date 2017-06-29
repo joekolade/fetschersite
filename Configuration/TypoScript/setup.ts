@@ -148,6 +148,38 @@ page.10.variables {
         select.languageField = sys_language_uid
     }
 
+#    contentFooter = COA
+#    contentFooter {
+#        10 < styles.content.get
+#        10 {
+#            select.where = colPos = 21
+#            select.languageField = sys_language_uid
+#            wrap = <div class="col-sm-3">|</div>
+#            slide = -1
+#        }
+#
+#        20 < .10
+#        20.select.where = colPos = 22
+#
+#        30 < .10
+#        30.select.where = colPos = 23
+#
+#        40 < .10
+#        40.select.where = colPos = 24
+#    }
+}
+
+lib {
+    contentStage = COA
+    contentStage {
+        10 < styles.content.get
+        10 {
+            select.where = colPos = 11
+            #select.languageField = sys_language_uid
+        }
+    }
+
+
     contentFooter = COA
     contentFooter {
         10 < styles.content.get
@@ -167,17 +199,7 @@ page.10.variables {
         40 < .10
         40.select.where = colPos = 24
     }
-}
 
-lib {
-    contentStage = COA
-    contentStage {
-        10 =< styles.content.get
-        10 {
-            select.where = colPos = 11
-            #select.languageField = sys_language_uid
-        }
-    }
 }
 
 [treeLevel = 2,3,4,5,6,7,8,9,10]

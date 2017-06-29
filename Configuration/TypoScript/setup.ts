@@ -142,7 +142,7 @@ page.10.variables {
         20.1.NO.ATagParams = class="btn" rel="nofollow"
     }
 
-    contentMain =< styles.content.get
+    contentMain < styles.content.get
     contentMain {
         select.where = colPos = 12
         select.languageField = sys_language_uid

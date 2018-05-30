@@ -28,7 +28,7 @@ page.meta {
     google-site-verification = 9x4g8j2RqMmROgs0wXzcCpTN6Qrusl9gNYabbr5sdRI
 }
 
-config.baseURL = http://{$fetschersite.site.domain}/
+config.baseURL = https://{$fetschersite.site.domain}/
 config.tx_realurl_enable = 1
 config.tx_frontend_editing = 1
 
@@ -383,20 +383,3 @@ lib.fluidContent.settings.media.popup.linkParams.ATagParams.dataWrap = class="{$
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:go_maps_ext/Configuration/TypoScript/setup.txt">
 // frontend_editing
 #<INCLUDE_TYPOSCRIPT: source="FILE:EXT:frontend_editing/Configuration/TypoScript/setup.ts">
-
-// DSGVO Opt out for GA
-page.jsFooterInline {
-    666 = TEXT
-    666.value (
-var gaProperty = "UA-99007547-1";
-var disableStr = 'ga-disable-' + gaProperty;
-if (document.cookie.indexOf(disableStr + '=true') > -1) {
-	window[disableStr] = true;
-}
-function gaOptout() {
-	document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC;path=/';
-	window[disableStr] = true;
-	alert('Das Tracking durch Google Analytics wurde in Ihrem Browser für diese Website deaktiviert.');
-}
-    )
-}

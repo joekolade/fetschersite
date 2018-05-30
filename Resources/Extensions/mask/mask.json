@@ -29,9 +29,11 @@
                 "icon": "fa-photo",
                 "color": "#ff7d00",
                 "columns": [
+                    "header",
                     "image"
                 ],
                 "labels": [
+                    "Header (nur intern)",
                     ""
                 ]
             }

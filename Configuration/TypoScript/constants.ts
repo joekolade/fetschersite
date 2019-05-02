@@ -15,13 +15,15 @@
 // jh_magnifiq
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:jh_magnificpopup/Configuration/TypoScript/Default/constants.txt">
 // scriptmerger
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:scriptmerger/Configuration/constants.txt">
+#<INCLUDE_TYPOSCRIPT: source="FILE:EXT:scriptmerger/Configuration/constants.txt">
 // sourceopt
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:sourceopt/Configuration/TypoScript/constants.txt">
 // go_maps_ext
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:go_maps_ext/Configuration/TypoScript/constants.txt">
 // frontend_editing
 #<INCLUDE_TYPOSCRIPT: source="FILE:EXT:frontend_editing/Configuration/TypoScript/constants.ts">
+// pxa_cookie_bar
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pxa_cookie_bar/Configuration/TypoScript/constants.txt">
 
 fetschersite {
     site {
@@ -75,7 +77,12 @@ styles.templates.partialRootPath = EXT:fetschersite/Resources/Extensions/fsc/Par
 
 
 /**
-* Cs_sea
+* Cs_seo
 * https://docs.typo3.org/typo3cms/extensions/cs_seo/Developer/ExtendSitemap/Index.html#extend-sitemap
 */
 plugin.tx_csseo.sitemap.pages.rootPid = 27
+
+plugin.tx_pxacookiebar.settings.position = bottom
+plugin.tx_pxacookiebar.view.templateRootPath = EXT:fetschersite/Resources/Extensions/pxa_cookie_bar/Templates
+plugin.tx_pxacookiebar.view.partialRootPath = EXT:fetschersite/Resources/Extensions/pxa_cookie_bar/Partials
+plugin.tx_pxacookiebar.view.layoutRootPath = EXT:fetschersite/Resources/Extensions/pxa_cookie_bar/Layouts

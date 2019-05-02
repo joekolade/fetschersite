@@ -11,47 +11,46 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'Fetscher Website',
-	'description' => 'Another Fetscher Website',
-	'category' => 'distribution',
-	'author' => 'Joe Schäfer',
-	'author_email' => 'mail@schaefer-webentwicklung.de',
-	'state' => 'stable',
-	'internal' => '',
-	'uploadfolder' => '0',
-	'createDirs' => '',
-	'clearCacheOnLoad' => 0,
-	'version' => '1.5.1',
-	'constraints' => array(
-		'depends' => array(
-			'typo3' => '7.6.0-8.99.99',
-			'fsc_layout_wrap' => '',
-			'bootstrap_grids' => '',
-			'gridelements' => '',
-			'mask' => '',
-			'powermail' => '',
-			'realurl' => '',
-			'dd_googlesitemap' => '',
-			'jh_magnificpopup' => '',
-			't3monitoring_client' => '',
-			'cs_seo' => '',
-			'sourceopt' => '',
-			'scriptmerger' => '',
-			// Sysextensions
-			'opendocs' => '',
-			'recycler' => '',
-			'vhs' => '',
-		),
-		'conflicts' => array(
-		),
-		'suggests' => array(
-			'rx_unrollsavebuttons' => '',
-			'go_maps_ext' => '',
-			'fsc_layout_wrap' => '',
-			'frontend_editing' => '',
-			'lib_js_lazysizes' => '', // https://github.com/joekolade/lib_js_lazysizes
-			'cookieconsent2' => '',
-			'fluid-styled-responsive-images' => ''
-		),
-	),
+  'title' => 'Fetscher Website',
+  'description' => 'Another Fetscher Website',
+  'category' => 'distribution',
+  'author' => 'Joe Schäfer',
+  'author_email' => 'mail@schaefer-webentwicklung.de',
+  'state' => 'stable',
+  'internal' => '',
+  'uploadfolder' => '0',
+  'createDirs' => '',
+  'clearCacheOnLoad' => 0,
+  'version' => '1.5.1',
+  'constraints' => array(
+    'depends' => array(
+      'typo3' => '7.6.0-8.99.99',
+      'fsc_layout_wrap' => '',
+      'bootstrap_grids' => '',
+      'gridelements' => '',
+      'mask' => '',
+      'powermail' => '',
+      'realurl' => '',
+      'dd_googlesitemap' => '',
+      'jh_magnificpopup' => '',
+      'cs_seo' => '',
+      // Sysextensions
+      'opendocs' => '',
+      'recycler' => '',
+      'vhs' => '',
+    ),
+    'conflicts' => array(
+    ),
+    'suggests' => array(
+      'sourceopt' => '',
+      'scriptmerger' => '',
+      'unroll' => '',
+      'go_maps_ext' => '',
+      'fsc_layout_wrap' => '',
+      'frontend_editing' => '',
+      'lib_js_lazysizes' => '', // https://github.com/joekolade/lib_js_lazysizes
+      'cookieconsent2' => '',
+      'fluid-styled-responsive-images' => ''
+    ),
+  ),
 );

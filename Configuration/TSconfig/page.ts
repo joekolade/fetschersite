@@ -1,3 +1,6 @@
+# Set Editor preferences
+RTE.config.tt_content.bodytext.preset = fetscher_preset
+
 tx_gridelements {
   excludeLayoutIds = slider,tabsSimple,tabs4,tabs6,accordion,slider
 }

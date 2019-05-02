@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dcc26b1-044f-46f1-8c09-d555e477de57" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Configuration/RTE/Fetscher.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Extensions/fsc/Layouts/Default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Extensions/pxa_cookie_bar/Layouts/Default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Extensions/pxa_cookie_bar/Templates/CookieWarning/WarningMessage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/ExtensionBuilder/settings.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/TSconfig/page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/TSconfig/page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/TypoScript/Extensions/tx_powermail.tsconst" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/TypoScript/Extensions/tx_powermail.tsconst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/TypoScript/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/TypoScript/constants.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Configuration/TypoScript/setup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/TypoScript/setup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Extensions/fsc/Templates/Textmedia.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext_emconf.php" beforeDir="false" afterPath="$PROJECT_DIR$/ext_emconf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext_localconf.php" beforeDir="false" afterPath="$PROJECT_DIR$/ext_localconf.php" afterDir="false" />
     </list>
     <ignored path="Resources/Development/node_modules/" />
     <ignored path="Resources/Development/bower_components/" />
     <ignored path="Resources/Development/.tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,27 +86,12 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Public/JavaScripts/main.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="plugins.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Public/JavaScripts/plugins.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="vendor.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Public/JavaScripts/vendor.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="setup.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/setup.ts">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Configuration/RTE/Fetscher.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="390" column="33" selection-start-line="390" selection-start-column="33" selection-end-line="390" selection-end-column="33" />
+            <state relative-caret-position="435">
+              <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -120,6 +116,8 @@
       <find>contentFooter</find>
       <find>=&lt;</find>
       <find>UA</find>
+      <find>fsc</find>
+      <find>cookie</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Resources/Development/app/styles/elements/_header.scss" />
         <option value="$PROJECT_DIR$/Resources/Development/app/styles/elements/_footer.scss" />
         <option value="$PROJECT_DIR$/Resources/Development/app/styles/elements/_responsive_images.scss" />
@@ -147,116 +144,23 @@
         <option value="$PROJECT_DIR$/Resources/Development/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/Resources/Development/app/styles/elements/_navigation.scss" />
         <option value="$PROJECT_DIR$/Configuration/TypoScript/Extensions/tx_csseo.tsconst" />
-        <option value="$PROJECT_DIR$/Configuration/TypoScript/constants.ts" />
         <option value="$PROJECT_DIR$/Resources/Private/Layouts/Default.html" />
         <option value="$PROJECT_DIR$/Configuration/TypoScript/Extensions/tx_sourceopt.tsconst" />
-        <option value="$PROJECT_DIR$/Configuration/TypoScript/Extensions/tx_cookieconsent2.tsconst" />
         <option value="$PROJECT_DIR$/Resources/Development/gulpfile.js" />
         <option value="$PROJECT_DIR$/Resources/Private/Partials/Footer.html" />
+        <option value="$PROJECT_DIR$/Configuration/TypoScript/Extensions/tx_cookieconsent2.tsconst" />
+        <option value="$PROJECT_DIR$/Resources/Extensions/mask/templates/content/stageimage.html" />
         <option value="$PROJECT_DIR$/Configuration/TypoScript/setup.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Configuration/TypoScript/constants.ts" />
+        <option value="$PROJECT_DIR$/ext_localconf.php" />
+        <option value="$PROJECT_DIR$/Configuration/TSconfig/page.ts" />
+        <option value="$PROJECT_DIR$/Configuration/RTE/Fetscher.yaml" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <gulpfiles>
-      <GulpfileState>
-        <gulpfile-path>$PROJECT_DIR$/Resources/Development/gulpfile.js</gulpfile-path>
-        <tasks>
-          <GulpTaskState>
-            <task-name>styles</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>scripts</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>lint</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>lint:test</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <dependencies>
-              <dependency value="styles" />
-              <dependency value="scripts" />
-            </dependencies>
-            <task-name>html</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>images</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>fonts</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>extras</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>clean</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <dependencies>
-              <dependency value="styles" />
-              <dependency value="scripts" />
-              <dependency value="fonts" />
-            </dependencies>
-            <task-name>serve</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>serve:dist</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <dependencies>
-              <dependency value="scripts" />
-            </dependencies>
-            <task-name>serve:test</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>wiredep</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <dependencies>
-              <dependency value="html" />
-            </dependencies>
-            <task-name>t3copyStyles</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>t3copyJs</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <dependencies>
-              <dependency value="t3copyStyles" />
-            </dependencies>
-            <task-name>typo3</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <dependencies>
-              <dependency value="lint" />
-              <dependency value="images" />
-              <dependency value="fonts" />
-              <dependency value="extras" />
-              <dependency value="typo3" />
-            </dependencies>
-            <task-name>build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <dependencies>
-              <dependency value="clean" />
-            </dependencies>
-            <task-name>default</task-name>
-          </GulpTaskState>
-        </tasks>
-      </GulpfileState>
-    </gulpfiles>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/Resources/Development/node_modules" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="322" />
     <option name="width" value="1440" />
     <option name="height" value="833" />
   </component>
@@ -265,71 +169,77 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="fetschersite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fetschersite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fetschersite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fetschersite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fetschersite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Configuration" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fetschersite" type="462c0819:PsiDirectoryNode" />
+              <item name="Configuration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fetschersite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fetschersite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Configuration" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="TypoScript" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fetschersite" type="462c0819:PsiDirectoryNode" />
+              <item name="Configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="RTE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fetschersite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fetschersite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Configuration" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="TypoScript" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Extensions" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fetschersite" type="462c0819:PsiDirectoryNode" />
+              <item name="Configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="TSconfig" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fetschersite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fetschersite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fetschersite" type="462c0819:PsiDirectoryNode" />
+              <item name="Configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="TypoScript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fetschersite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fetschersite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fetschersite" type="462c0819:PsiDirectoryNode" />
+              <item name="Configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="TypoScript" type="462c0819:PsiDirectoryNode" />
+              <item name="Extensions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fetschersite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fetschersite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="JavaScripts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fetschersite" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="SearchEverywhereHistoryKey" value="remote&#9;ACTION&#9;WebDeployment.BrowseServers&#10;source&#9;FILE&#9;file:///Users/joe/workspace/_GITS/_EXT/fetschersite/Configuration/TypoScript/Extensions/tx_sourceopt.tsconst" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/Resources/Development/node_modules/gulp" />
-    <property name="SearchEverywhereHistoryKey" value="source&#9;FILE&#9;file:///Users/joe/workspace/_GITS/_EXT/fetschersite/Configuration/TypoScript/Extensions/tx_sourceopt.tsconst" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Configuration" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Configuration" />
+      <recent name="$PROJECT_DIR$/Resources/Public/Favicons" />
+      <recent name="$PROJECT_DIR$/Resources/Development/app/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Resources/Public/Images" />
       <recent name="$PROJECT_DIR$/Resources/Public" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Resources/Public/Favicons" />
-      <recent name="$PROJECT_DIR$/Resources/Development/app/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -345,73 +255,16 @@
     </option>
   </component>
   <component name="RunManager" selected="Gulp.js.build">
-    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <envs />
+      <method v="2" />
     </configuration>
-    <configuration name="build" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+    <configuration name="build" type="js.build_tools.gulp" temporary="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile>$PROJECT_DIR$/Resources/Development/gulpfile.js</gulpfile>
@@ -420,8 +273,9 @@
       </tasks>
       <arguments />
       <envs />
+      <method v="2" />
     </configuration>
-    <configuration name="serve" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+    <configuration name="serve" type="js.build_tools.gulp" temporary="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile>$PROJECT_DIR$/Resources/Development/gulpfile.js</gulpfile>
@@ -430,8 +284,9 @@
       </tasks>
       <arguments />
       <envs />
+      <method v="2" />
     </configuration>
-    <configuration name="serve:dist" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+    <configuration name="serve:dist" type="js.build_tools.gulp" temporary="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile>$PROJECT_DIR$/Resources/Development/gulpfile.js</gulpfile>
@@ -440,6 +295,7 @@
       </tasks>
       <arguments />
       <envs />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Gulp.js.build" />
@@ -495,35 +351,12 @@
       <workItem from="1503916789846" duration="21000" />
       <workItem from="1504862817451" duration="7000" />
       <workItem from="1508924009327" duration="320000" />
-      <workItem from="1524693067412" duration="130000" />
-    </task>
-    <task id="LOCAL-00005" summary="Entrylevel for menu">
-      <created>1492640463833</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1492640463833</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Entrylevel for menu">
-      <created>1492640592906</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1492640592906</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Metanavi root">
-      <created>1492640935579</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1492640935579</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Languagemenu">
-      <created>1492641546722</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1492641546722</updated>
+      <workItem from="1524693067412" duration="611000" />
+      <workItem from="1524717639084" duration="7000" />
+      <workItem from="1527197841592" duration="1084000" />
+      <workItem from="1527404301184" duration="544000" />
+      <workItem from="1527674472605" duration="6000" />
+      <workItem from="1527674539380" duration="263000" />
     </task>
     <task id="LOCAL-00009" summary="Languagemenu">
       <created>1492641785970</created>
@@ -840,11 +673,39 @@
       <option name="project" value="LOCAL" />
       <updated>1498746992346</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="DSGVO OptOut">
+      <created>1524693227040</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1524693227040</updated>
+    </task>
+    <task id="LOCAL-00055" summary="DSGVO OptOut">
+      <created>1524693234096</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1524693234096</updated>
+    </task>
+    <task id="LOCAL-00056" summary="SSL">
+      <created>1527694624090</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1527694624091</updated>
+    </task>
+    <task id="LOCAL-00057" summary="SSL">
+      <created>1527694635833</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1527694635833</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17241000" />
+    <option name="totallyTimeSpent" value="19626000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -856,57 +717,57 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="833" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="833" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50572246" side_tool="true" weight="0.26040268" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49427754" weight="0.26040268" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49213162" weight="0.32476318" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49427754" weight="0.32885906" />
-      <window_info id="Gulp" order="2" sideWeight="0.5013441" side_tool="true" weight="0.23962805" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49865592" visible="true" weight="0.26895565" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49865592" visible="true" weight="0.2911302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Gulp" order="2" sideWeight="0.5013441" side_tool="true" weight="0.23962805" />
+      <window_info id="Favorites" order="3" sideWeight="0.42746115" side_tool="true" weight="0.14735337" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49427754" weight="0.26040268" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" sideWeight="0.42746115" side_tool="true" weight="0.14735337" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.21565495" />
-      <window_info anchor="bottom" id="Inspection Results" order="7" weight="0.3291866" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3291866" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49427754" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50572246" side_tool="true" weight="0.26040268" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49213162" weight="0.32388663" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="File Transfer" order="13" visible="true" weight="0.32793522" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="File Transfer" order="11" weight="0.3282123" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.21530758" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49213162" weight="0.32885906" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Gulp" order="2" sideWeight="0.45190564" side_tool="true" visible="true" weight="0.22532189" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49427754" visible="true" weight="0.26040268" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5480944" visible="true" weight="0.22532189" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Gulp" order="2" sideWeight="0.45190564" side_tool="true" visible="true" weight="0.22532189" />
+      <window_info id="Favorites" order="3" sideWeight="0.42746115" side_tool="true" weight="0.14749734" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49427754" visible="true" weight="0.26040268" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50572246" side_tool="true" visible="true" weight="0.26040268" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49213162" weight="0.32885906" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49427754" weight="0.32885906" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3291866" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49427754" weight="0.32885906" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50572246" side_tool="true" visible="true" weight="0.26040268" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info id="Favorites" order="3" sideWeight="0.42746115" side_tool="true" weight="0.14749734" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -940,15 +801,24 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Refix Seybold" />
-    <MESSAGE value="Add new BG" />
     <MESSAGE value="Entrylevel for menu" />
     <MESSAGE value="Metanavi root" />
     <MESSAGE value="Languagemenu" />
@@ -972,7 +842,9 @@
     <MESSAGE value="cs seo extern" />
     <MESSAGE value="now - right here" />
     <MESSAGE value="Fix styles.content.get" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix styles.content.get" />
+    <MESSAGE value="DSGVO OptOut" />
+    <MESSAGE value="SSL" />
+    <option name="LAST_COMMIT_MESSAGE" value="SSL" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Resources/_Development/app/styles/_variables.scss" />
@@ -983,13 +855,6 @@
     <entry file="file://$PROJECT_DIR$/Resources/Development/bower_components/bootstrap/scss/_variables.scss" />
     <entry file="file://$PROJECT_DIR$/Resources/Development/app/styles/lib/_fonts.scss" />
     <entry file="file://$PROJECT_DIR$/Resources/Development/app/styles/_bs_vars.scss" />
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/Resources/Development/bower_components/bootstrap-sass/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Development/bower_components/bootstrap-sass/bower.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Development/app/styles/elements/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -1018,27 +883,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Partials/Stage.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Partials/Header.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Private/Partials/Navigation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Public/Images/logo2.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Public/Images/fetscher_kringel.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Public/Images/BG_SB.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Extensions/tx_powermail.tssetup">
       <provider selected="true" editor-type-id="text-editor">
@@ -1054,21 +904,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/.htaccess">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Development/app/styles/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Setup/favicon.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Setup/template_basics_setup.ts">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Setup/language.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -1119,20 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Extensions/tx_cookieconsent2.tssetup">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Extensions/tx_cookieconsent2.tsconst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Development/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1175,13 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ext_localconf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ext_emconf.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1196,15 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Public/JavaScripts/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Public/JavaScripts/plugins.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Public/JavaScripts/vendor.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Extensions/tx_csseo.tsconst">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1212,17 +1023,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Extensions/mask/templates/content/stageimage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Extensions/fsc/Templates/Textmedia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Extensions/fsc/Layouts/Default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Extensions/tx_powermail.tsconst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="11" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Extensions/fsc/Partials/Header/Header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="32" lean-forward="true" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Extensions/tx_cookieconsent2.tssetup">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/Extensions/tx_cookieconsent2.tsconst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/constants.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="370">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/setup.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="390" column="33" selection-start-line="390" selection-start-column="33" selection-end-line="390" selection-end-column="33" />
+        <state relative-caret-position="226">
+          <caret line="385" column="13" selection-start-line="385" selection-start-column="7" selection-end-line="385" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext_localconf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/TSconfig/page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/RTE/Fetscher.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
         </state>
       </provider>
     </entry>
